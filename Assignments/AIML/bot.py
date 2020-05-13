@@ -1,13 +1,19 @@
 import aiml
 
-# Create the kernel and learn AIML files
+
 kernel = aiml.Kernel()
 kernel.learn("eduoram.xml")
+kernel.learn("bookshelf.aiml")
 
-# Press CTRL-C to break this loop
+out = str(kernel.respond("random"))
+out = out.replace(" \\n "," \n ")
+print("BOT:"+out)
+
 while True:
 	msg = input("ME: ")
 	if msg == "exit":
 		break
 	else:	
-		print("BOT:"+kernel.respond(msg))
+		out = str(kernel.respond(msg))
+		out = out.replace(" \\n "," \n ")
+		print("BOT:"+out)

@@ -1,38 +1,115 @@
 <aiml version = "1.0.1" encoding = "UTF-8">
+
+<!--intro-->
 <category>
 	<pattern>*</pattern>
 	<template>
 		<condition name="flag">
-		<li value="">Welcome to Eduoram Services,I am a chatbot!What are you 
-		looking for?Type one of these categories.
-		BUY A BOOK|RETURN A BOOK|TRACK ORDER|OTHERS|CUSTOMER CARE
+		<li value="">Welcome to NeRdYbOoKzZ,I am your nerdbot!What are you 
+		looking for?Select one of these categories. \n
+		EXPLORE|SEARCH FOR BOOK|TRACK YOUR ORDER|ABOUT NeRdYbOoKzZ
 		<think><set name="flag">1</set></think></li>
-		<li>It would me of much help if you choose from the options!</li>
+		<li value="1">I would be much obliged of you choose from one of the options<think><set name="flag">2</set></think></li>
+		<li value="2">Choosing from the options saves much of my time<think><set name="flag">3</set></think></li>
+		<li value="3">You know,I think choosing from the options make me work efficiently and saves your time too<think><set name="flag">1</set></think></li>
 		</condition>
 	</template>
 </category>
+<!--end_of_intro-->
+<!--explore-->
 <category>
-	<pattern>BUY A BOOK</pattern>
+	<pattern>EXPLORE</pattern>
 	<template>
-		What category would you like to explore?<think><set name="topic">BUY</set></think>
-		ACTION|ADVENTURE|THRILLER|COMEDY|FANTASY|SCI-FI
+		What category would you like to explore? \n 
+		ADVENTURE|THRILLER|COMEDY|FANTASY|SCI-FI|ROMANCE|HORROR|CRIME|BIOGRAPHY
 	</template>
 </category>
-<topic name="BUY">
 <category>
-	<pattern>*</pattern>
-	<that>ACTION|ADVENTURE|THRILLER|COMEDY|FANTASY|SCI-FI</that>
+	<pattern>* EXPLORE</pattern>
+	<template><srai>EXPLORE</srai></template>
+</category>
+<category>
+	<pattern>* EXPLORE *</pattern>
+	<template><srai>EXPLORE</srai></template>
+</category>
+<category>
+	<pattern>EXPLORE *</pattern>
+	<template><srai>EXPLORE</srai></template>
+</category>
+<!--end_of_explore-->
+<!--search-->
+<category>
+	<pattern>SEARCH FOR A BOOK</pattern>
 	<template>
-		
+		Please type book's name
 	</template>
-</category>	
-</topic>
+</category>
 <category>
-	<pattern>TELL ME THE DATE</pattern>
-	<template><date/></template>
-	</category>
+	<pattern>SEARCH</pattern>
+	<template><srai>SEARCH FOR A BOOK</srai></template>
+</category>
 <category>
-	<pattern>BYE</pattern>
-	<template>Bye human!!</template>
-	</category>
+	<pattern>* SEARCH</pattern>
+	<template><srai>SEARCH FOR A BOOK</srai></template>
+</category>
+<category>
+	<pattern>* SEARCH *</pattern>
+	<template><srai>SEARCH FOR A BOOK</srai></template>
+</category>
+<category>
+	<pattern>SEARCH *</pattern>
+	<template><srai>SEARCH FOR A BOOK</srai></template>
+</category>
+<category>
+		<pattern>_</pattern>
+	<that>TYPE ITS NAME</that>
+	<template>Ah!Sorry to say but the book "<star/>" is currently not on our bookshelf \n
+			Would you like to search for another book?Type its name
+	</template>
+</category>
+<!--end_of_search-->
+<!--track_order-->
+<category>
+	<pattern>TRACK YOUR ORDER</pattern>
+	<template>
+		Can you please type your Purchase Id
+	</template>
+</category>
+<category>
+    <pattern>TRACK ORDER</pattern>
+	<template><srai>TRACK YOUR ORDER</srai></template>
+</category>
+<category>
+	<pattern>* TRACK ORDER</pattern>
+	<template><srai>TRACK YOUR ORDER</srai></template>
+</category>
+<category>
+	<pattern>TRACK ORDER *</pattern>
+	<template><srai>TRACK YOUR ORDER</srai></template>
+</category>
+<category>
+	<pattern>* TRACK ORDER *</pattern>
+	<template><srai>TRACK YOUR ORDER</srai></template>
+</category>
+<category>
+	<pattern>* TRACK * ORDER *</pattern>
+	<template><srai>TRACK YOUR ORDER</srai></template>
+</category>
+<category>
+	<pattern>TRACK * ORDER</pattern>
+	<template><srai>TRACK YOUR ORDER</srai></template>
+</category>
+<!--end_of_track-->
+<!--about-->
+<category>
+<pattern>ABOUT NERDYBOOKZZ</pattern>
+<template>In short,Mohd Muzzammil,who created me and NeRdYbOoKzZ,was kind of a great bookworm himself. \n One day,as he was swimming across his pile of books,he got the idea of creating a hub from where bookworms can explore and buy great books....and behold,NeRdYbOoKzZ was created! </template>
+</category>
+<!--end_ofabout-->
+<!--bye-->
+<category>
+<pattern>BYE</pattern>
+<template>Bye bookworm,thankyou for visiting!!</template>
+</category>
+<!--end_of_bye-->
 </aiml>
