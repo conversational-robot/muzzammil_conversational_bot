@@ -1,0 +1,38 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+<category>
+	<pattern>*</pattern>
+	<template>
+		<condition name="flag">
+		<li value="">Welcome to Eduoram Services,I am a chatbot!What are you 
+		looking for?Type one of these categories.
+		BUY A BOOK|RETURN A BOOK|TRACK ORDER|OTHERS|CUSTOMER CARE
+		<think><set name="flag">1</set></think></li>
+		<li>It would me of much help if you choose from the options!</li>
+		</condition>
+	</template>
+</category>
+<category>
+	<pattern>BUY A BOOK</pattern>
+	<template>
+		What category would you like to explore?<think><set name="topic">BUY</set></think>
+		ACTION|ADVENTURE|THRILLER|COMEDY|FANTASY|SCI-FI
+	</template>
+</category>
+<topic name="BUY">
+<category>
+	<pattern>*</pattern>
+	<that>ACTION|ADVENTURE|THRILLER|COMEDY|FANTASY|SCI-FI</that>
+	<template>
+		
+	</template>
+</category>	
+</topic>
+<category>
+	<pattern>TELL ME THE DATE</pattern>
+	<template><date/></template>
+	</category>
+<category>
+	<pattern>BYE</pattern>
+	<template>Bye human!!</template>
+	</category>
+</aiml>
