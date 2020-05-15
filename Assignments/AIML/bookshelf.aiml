@@ -1,851 +1,1142 @@
-<aiml version = "1.0.1" encoding = "UTF-8">
-<category>
-<pattern>TITLE</pattern>
-<template>Title:Title \n Author:Author \n Genre:Genre \n SubGenre:SubGenre \n Height:Height \n Publisher:Publisher</template>
-</category>
-<category>
-<pattern>FUNDAMENTALS OF WAVELETS</pattern>
-<template>Title:Fundamentals of Wavelets \n Author:Goswami  Jaideva \n Genre:tech \n SubGenre:signal_processing \n Height:228 \n Publisher:Wiley</template>
-</category>
-<category>
-<pattern>DATA SMART</pattern>
-<template>Title:Data Smart \n Author:Foreman  John \n Genre:tech \n SubGenre:data_science \n Height:235 \n Publisher:Wiley</template>
-</category>
-<category>
-<pattern>GOD CREATED THE INTEGERS</pattern>
-<template>Title:God Created the Integers \n Author:Hawking  Stephen \n Genre:tech \n SubGenre:mathematics \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>SUPERFREAKONOMICS</pattern>
-<template>Title:Superfreakonomics \n Author:Dubner  Stephen \n Genre:science \n SubGenre:economics \n Height:179 \n Publisher:HarperCollins</template>
-</category>
-<category>
-<pattern>ORIENTALISM</pattern>
-<template>Title:Orientalism \n Author:Said  Edward \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>NATURE OF STATISTICAL LEARNING THEORY  THE</pattern>
-<template>Title:Nature of Statistical Learning Theory  The \n Author:Vapnik  Vladimir \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher:Springer</template>
-</category>
-<category>
-<pattern>INTEGRATION OF THE INDIAN STATES</pattern>
-<template>Title:Integration of the Indian States \n Author:Menon  V P \n Genre:nonfiction \n SubGenre:history \n Height:217 \n Publisher:Orient Blackswan</template>
-</category>
-<category>
-<pattern>DRUNKARD'S WALK  THE</pattern>
-<template>Title:Drunkard's Walk  The \n Author:Mlodinow  Leonard \n Genre:science \n SubGenre:mathematics \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>IMAGE PROCESSING AND MATHEMATICAL MORPHOLOGY</pattern>
-<template>Title:Image Processing AND Mathematical Morphology \n Author:Shih  Frank \n Genre:tech \n SubGenre:signal_processing \n Height:241 \n Publisher:CRC</template>
-</category>
-<category>
-<pattern>HOW TO THINK LIKE SHERLOCK HOLMES</pattern>
-<template>Title:How to Think Like Sherlock Holmes \n Author:Konnikova  Maria \n Genre:nonfiction \n SubGenre:psychology \n Height:240 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>DATA SCIENTISTS AT WORK</pattern>
-<template>Title:Data Scientists at Work \n Author:Sebastian Gutierrez \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher:Apress</template>
-</category>
-<category>
-<pattern>SLAUGHTERHOUSE FIVE</pattern>
-<template>Title:Slaughterhouse Five \n Author:Vonnegut  Kurt \n Genre:fiction \n SubGenre:classic \n Height:198 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>BIRTH OF A THEOREM</pattern>
-<template>Title:Birth of a Theorem \n Author:Villani  Cedric \n Genre:science \n SubGenre:mathematics \n Height:234 \n Publisher:Bodley Head</template>
-</category>
-<category>
-<pattern>STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS</pattern>
-<template>Title:Structure AND Interpretation of Computer Programs \n Author:Sussman  Gerald \n Genre:tech \n SubGenre:computer_science \n Height:240 \n Publisher:MIT Press</template>
-</category>
-<category>
-<pattern>AGE OF WRATH  THE</pattern>
-<template>Title:Age of Wrath  The \n Author:Eraly  Abraham \n Genre:nonfiction \n SubGenre:history \n Height:238 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>TRIAL  THE</pattern>
-<template>Title:Trial  The \n Author:Kafka  Frank \n Genre:fiction \n SubGenre:classic \n Height:198 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>STATISTICAL DECISION THEORY'</pattern>
-<template>Title:Statistical Decision Theory' \n Author:Pratt  John \n Genre:tech \n SubGenre:data_science \n Height:236 \n Publisher:MIT Press</template>
-</category>
-<category>
-<pattern>DATA MINING HANDBOOK</pattern>
-<template>Title:Data Mining Handbook \n Author:Nisbet  Robert \n Genre:tech \n SubGenre:data_science \n Height:242 \n Publisher:Apress</template>
-</category>
-<category>
-<pattern>NEW MACHIAVELLI  THE</pattern>
-<template>Title:New Machiavelli  The \n Author:Wells  H. G. \n Genre:fiction \n SubGenre:novel \n Height:180 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>PHYSICS AND PHILOSOPHY</pattern>
-<template>Title:Physics AND Philosophy \n Author:Heisenberg  Werner \n Genre:philosophy \n SubGenre:science \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>MAKING SOFTWARE</pattern>
-<template>Title:Making Software \n Author:Oram  Andy \n Genre:tech \n SubGenre:computer_science \n Height:232 \n Publisher:O'Reilly</template>
-</category>
-<category>
-<pattern>ANALYSIS  VOL I</pattern>
-<template>Title:Analysis  Vol I \n Author:Tao  Terence \n Genre:tech \n SubGenre:mathematics \n Height:248 \n Publisher:HBA</template>
-</category>
-<category>
-<pattern>MACHINE LEARNING FOR HACKERS</pattern>
-<template>Title:Machine Learning for Hackers \n Author:Conway  Drew \n Genre:tech \n SubGenre:data_science \n Height:233 \n Publisher:O'Reilly</template>
-</category>
-<category>
-<pattern>SIGNAL AND THE NOISE  THE</pattern>
-<template>Title:Signal and the Noise  The \n Author:Silver  Nate \n Genre:tech \n SubGenre:data_science \n Height:233 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>PYTHON FOR DATA ANALYSIS</pattern>
-<template>Title:Python for Data Analysis \n Author:McKinney  Wes \n Genre:tech \n SubGenre:data_science \n Height:233 \n Publisher:O'Reilly</template>
-</category>
-<category>
-<pattern>INTRODUCTION TO ALGORITHMS</pattern>
-<template>Title:Introduction to Algorithms \n Author:Cormen  Thomas \n Genre:tech \n SubGenre:computer_science \n Height:234 \n Publisher:MIT Press</template>
-</category>
-<category>
-<pattern>BEAUTIFUL AND THE DAMNED  THE</pattern>
-<template>Title:Beautiful and the Damned  The \n Author:Deb  Siddhartha \n Genre:nonfiction \n SubGenre:history \n Height:198 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>OUTSIDER  THE</pattern>
-<template>Title:Outsider  The \n Author:Camus  Albert \n Genre:fiction \n SubGenre:classic \n Height:198 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>COMPLETE SHERLOCK HOLMES  THE - VOL I</pattern>
-<template>Title:Complete Sherlock Holmes  The - Vol I \n Author:Doyle  Arthur Conan \n Genre:fiction \n SubGenre:classic \n Height:176 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>COMPLETE SHERLOCK HOLMES  THE - VOL II</pattern>
-<template>Title:Complete Sherlock Holmes  The - Vol II \n Author:Doyle  Arthur Conan \n Genre:fiction \n SubGenre:classic \n Height:176 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>WEALTH OF NATIONS  THE</pattern>
-<template>Title:Wealth of Nations  The \n Author:Smith  Adam \n Genre:science \n SubGenre:economics \n Height:175 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>PILLARS OF THE EARTH  THE</pattern>
-<template>Title:Pillars of the Earth  The \n Author:Follett  Ken \n Genre:fiction \n SubGenre:novel \n Height:176 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>MEIN KAMPF</pattern>
-<template>Title:Mein Kampf \n Author:Hitler  Adolf \n Genre:nonfiction \n SubGenre:autobiography \n Height:212 \n Publisher:Rupa</template>
-</category>
-<category>
-<pattern>TAO OF PHYSICS  THE</pattern>
-<template>Title:Tao of Physics  The \n Author:Capra  Fritjof \n Genre:science \n SubGenre:physics \n Height:179 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>SURELY YOU'RE JOKING MR FEYNMAN</pattern>
-<template>Title:Surely You're Joking Mr Feynman \n Author:Feynman  Richard \n Genre:science \n SubGenre:physics \n Height:198 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>FAREWELL TO ARMS  A</pattern>
-<template>Title:Farewell to Arms  A \n Author:Hemingway  Ernest \n Genre:fiction \n SubGenre:classic \n Height:179 \n Publisher:Rupa</template>
-</category>
-<category>
-<pattern>VETERAN  THE</pattern>
-<template>Title:Veteran  The \n Author:Forsyth  Frederick \n Genre:fiction \n SubGenre:novel \n Height:177 \n Publisher:Transworld</template>
-</category>
-<category>
-<pattern>FALSE IMPRESSIONS</pattern>
-<template>Title:False Impressions \n Author:Archer  Jeffery \n Genre:fiction \n SubGenre:novel \n Height:177 \n Publisher:Pan</template>
-</category>
-<category>
-<pattern>LAST LECTURE  THE</pattern>
-<template>Title:Last Lecture  The \n Author:Pausch  Randy \n Genre:nonfiction \n SubGenre:autobiography \n Height:197 \n Publisher:Hyperion</template>
-</category>
-<category>
-<pattern>RETURN OF THE PRIMITIVE</pattern>
-<template>Title:Return of the Primitive \n Author:Rand  Ayn \n Genre:philosophy \n SubGenre:objectivism \n Height:202 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>JURASSIC PARK</pattern>
-<template>Title:Jurassic Park \n Author:Crichton  Michael \n Genre:fiction \n SubGenre:novel \n Height:174 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>RUSSIAN JOURNAL  A</pattern>
-<template>Title:Russian Journal  A \n Author:Steinbeck  John \n Genre:nonfiction \n SubGenre:history \n Height:196 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>TALES OF MYSTERY AND IMAGINATION</pattern>
-<template>Title:Tales of Mystery and Imagination \n Author:Poe  Edgar Allen \n Genre:fiction \n SubGenre:classic \n Height:172 \n Publisher:HarperCollins</template>
-</category>
-<category>
-<pattern>FREAKONOMICS</pattern>
-<template>Title:Freakonomics \n Author:Dubner  Stephen \n Genre:science \n SubGenre:economics \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>HIDDEN CONNECTIONS  THE</pattern>
-<template>Title:Hidden Connections  The \n Author:Capra  Fritjof \n Genre:science \n SubGenre:physics \n Height:197 \n Publisher:HarperCollins</template>
-</category>
-<category>
-<pattern>STORY OF PHILOSOPHY  THE</pattern>
-<template>Title:Story of Philosophy  The \n Author:Durant  Will \n Genre:philosophy \n SubGenre:history \n Height:170 \n Publisher:Pocket</template>
-</category>
-<category>
-<pattern>ASAMI ASAMI</pattern>
-<template>Title:Asami Asami \n Author:Deshpande  P L \n Genre:fiction \n SubGenre:novel \n Height:205 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>JOURNAL OF A NOVEL</pattern>
-<template>Title:Journal of a Novel \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>ONCE THERE WAS A WAR</pattern>
-<template>Title:Once There Was a War \n Author:Steinbeck  John \n Genre:nonfiction \n SubGenre:history \n Height:196 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>MOON IS DOWN  THE</pattern>
-<template>Title:Moon is Down  The \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>BRETHREN  THE</pattern>
-<template>Title:Brethren  The \n Author:Grisham  John \n Genre:fiction \n SubGenre:novel \n Height:174 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>IN A FREE STATE</pattern>
-<template>Title:In a Free State \n Author:Naipaul  V. S. \n Genre:fiction \n SubGenre:novel \n Height:196 \n Publisher:Rupa</template>
-</category>
-<category>
-<pattern>CATCH 22</pattern>
-<template>Title:Catch 22 \n Author:Heller  Joseph \n Genre:fiction \n SubGenre:classic \n Height:178 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>COMPLETE MASTERMIND  THE</pattern>
-<template>Title:Complete Mastermind  The \n Author:BBC \n Genre:nonfiction \n SubGenre:trivia \n Height:178 \n Publisher:BBC</template>
-</category>
-<category>
-<pattern>DYLAN ON DYLAN</pattern>
-<template>Title:Dylan on Dylan \n Author:Dylan  Bob \n Genre:nonfiction \n SubGenre:autobiography \n Height:197 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>SOFT COMPUTING AND INTELLIGENT SYSTEMS</pattern>
-<template>Title:Soft Computing AND Intelligent Systems \n Author:Gupta  Madan \n Genre:tech \n SubGenre:data_science \n Height:242 \n Publisher:Elsevier</template>
-</category>
-<category>
-<pattern>TEXTBOOK OF ECONOMIC THEORY</pattern>
-<template>Title:Textbook of Economic Theory \n Author:Stonier  Alfred \n Genre:tech \n SubGenre:economics \n Height:242 \n Publisher:Pearson</template>
-</category>
-<category>
-<pattern>ECONOMETRIC ANALYSIS</pattern>
-<template>Title:Econometric Analysis \n Author:Greene  W. H. \n Genre:tech \n SubGenre:economics \n Height:242 \n Publisher:Pearson</template>
-</category>
-<category>
-<pattern>LEARNING OPENCV</pattern>
-<template>Title:Learning OpenCV \n Author:Bradsky  Gary \n Genre:tech \n SubGenre:signal_processing \n Height:232 \n Publisher:O'Reilly</template>
-</category>
-<category>
-<pattern>DATA STRUCTURES USING C AND C++</pattern>
-<template>Title:Data Structures Using C AND C++ \n Author:Tanenbaum  Andrew \n Genre:tech \n SubGenre:computer_science \n Height:235 \n Publisher:Prentice Hall</template>
-</category>
-<category>
-<pattern>COMPUTER VISION  A MODERN APPROACH</pattern>
-<template>Title:Computer Vision  A Modern Approach \n Author:Forsyth  David \n Genre:tech \n SubGenre:signal_processing \n Height:255 \n Publisher:Pearson</template>
-</category>
-<category>
-<pattern>PRINCIPLES OF COMMUNICATION SYSTEMS</pattern>
-<template>Title:Principles of Communication Systems \n Author:Taub  Schilling \n Genre:tech \n SubGenre:signal_processing \n Height:240 \n Publisher:TMH</template>
-</category>
-<category>
-<pattern>LET US C</pattern>
-<template>Title:Let Us C \n Author:Kanetkar  Yashwant \n Genre:tech \n SubGenre:computer_science \n Height:213 \n Publisher:Prentice Hall</template>
+<aiml version = "1.0.1" encoding = "UTF 8">
+<category>
+<pattern>20000 LEAGUES UNDER THE SEA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:20000 Leagues Under the Sea \n Author:Verne  Jules \n Genre:fiction \n SubGenre:novel \n Height:190 \n Publisher: \n Price: Rs.1010 \n Would you like to buy that book?</template>
 </category>
 <category>
 <pattern>AMULET OF SAMARKAND  THE</pattern>
-<template>Title:Amulet of Samarkand  The \n Author:Stroud  Jonathan \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>CRIME AND PUNISHMENT</pattern>
-<template>Title:Crime and Punishment \n Author:Dostoevsky  Fyodor \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher:Penguin</template>
+<that>* BOOK S NAME *</that>
+<template>Title:Amulet of Samarkand  The \n Author:Stroud  Jonathan \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:Random House \n Price: Rs.882 \n Would you like to buy that book?</template>
 </category>
 <category>
 <pattern>ANGELS AND DEMONS</pattern>
-<template>Title:Angels AND Demons \n Author:Brown  Dan \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>ARGUMENTATIVE INDIAN  THE</pattern>
-<template>Title:Argumentative Indian  The \n Author:Sen  Amartya \n Genre:nonfiction \n SubGenre:history \n Height:209 \n Publisher:Picador</template>
-</category>
-<category>
-<pattern>SEA OF POPPIES</pattern>
-<template>Title:Sea of Poppies \n Author:Ghosh  Amitav \n Genre:fiction \n SubGenre:novel \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>IDEA OF JUSTICE  THE</pattern>
-<template>Title:Idea of Justice  The \n Author:Sen  Amartya \n Genre:philosophy \n SubGenre:economics \n Height:212 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>RAISIN IN THE SUN  A</pattern>
-<template>Title:Raisin in the Sun  A \n Author:Hansberry  Lorraine \n Genre:fiction \n SubGenre:novel \n Height:175 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>ALL THE PRESIDENT'S MEN</pattern>
-<template>Title:All the President's Men \n Author:Woodward  Bob \n Genre:nonfiction \n SubGenre:history \n Height:177 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>PRISONER OF BIRTH  A</pattern>
-<template>Title:Prisoner of Birth  A \n Author:Archer  Jeffery \n Genre:fiction \n SubGenre:novel \n Height:176 \n Publisher:Pan</template>
-</category>
-<category>
-<pattern>SCOOP!</pattern>
-<template>Title:Scoop! \n Author:Nayar  Kuldip \n Genre:nonfiction \n SubGenre:history \n Height:216 \n Publisher:HarperCollins</template>
-</category>
-<category>
-<pattern>AHE MANOHAR TARI</pattern>
-<template>Title:Ahe Manohar Tari \n Author:Deshpande  Sunita \n Genre:nonfiction \n SubGenre:autobiography \n Height:213 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>LAST MUGHAL  THE</pattern>
-<template>Title:Last Mughal  The \n Author:Dalrymple  William \n Genre:nonfiction \n SubGenre:history \n Height:199 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>SOCIAL CHOICE AND WELFARE  VOL 39 NO. 1</pattern>
-<template>Title:Social Choice AND Welfare  Vol 39 No. 1 \n Author:Various \n Genre:tech \n SubGenre:economics \n Height:235 \n Publisher:Springer</template>
-</category>
-<category>
-<pattern>RADIOWARIL BHASHANE AND SHRUTIKA</pattern>
-<template>Title:Radiowaril Bhashane AND Shrutika \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:213 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>GUN GAYIN AWADI</pattern>
-<template>Title:Gun Gayin Awadi \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:212 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>AGHAL PAGHAL</pattern>
-<template>Title:Aghal Paghal \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:212 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>MAQTA-E-GHALIB</pattern>
-<template>Title:Maqta-e-Ghalib \n Author:Garg  Sanjay \n Genre:nonfiction \n SubGenre:poetry \n Height:221 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>BEYOND DEGREES</pattern>
-<template>Title:Beyond Degrees \n Author: \n Genre:philosophy \n SubGenre:education \n Height:222 \n Publisher:HarperCollins</template>
-</category>
-<category>
-<pattern>MANASA</pattern>
-<template>Title:Manasa \n Author:Kale  V P \n Genre:nonfiction \n SubGenre:misc \n Height:213 \n Publisher:Mauj</template>
-</category>
-<category>
-<pattern>INDIA FROM MIDNIGHT TO MILENNIUM</pattern>
-<template>Title:India from Midnight to Milennium \n Author:Tharoor  Shashi \n Genre:nonfiction \n SubGenre:history \n Height:198 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>WORLD'S GREATEST TRIALS  THE</pattern>
-<template>Title:World's Greatest Trials  The \n Author: \n Genre:nonfiction \n SubGenre:history \n Height:210 \n Publisher:</template>
-</category>
-<category>
-<pattern>GREAT INDIAN NOVEL  THE</pattern>
-<template>Title:Great Indian Novel  The \n Author:Tharoor  Shashi \n Genre:fiction \n SubGenre:novel \n Height:198 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>O JERUSALEM!</pattern>
-<template>Title:O Jerusalem! \n Author:Lapierre  Dominique \n Genre:nonfiction \n SubGenre:history \n Height:217 \n Publisher:vikas</template>
-</category>
-<category>
-<pattern>CITY OF JOY  THE</pattern>
-<template>Title:City of Joy  The \n Author:Lapierre  Dominique \n Genre:fiction \n SubGenre:novel \n Height:177 \n Publisher:vikas</template>
-</category>
-<category>
-<pattern>FREEDOM AT MIDNIGHT</pattern>
-<template>Title:Freedom at Midnight \n Author:Lapierre  Dominique \n Genre:nonfiction \n SubGenre:history \n Height:167 \n Publisher:vikas</template>
-</category>
-<category>
-<pattern>WINTER OF OUR DISCONTENT  THE</pattern>
-<template>Title:Winter of Our Discontent  The \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>ON EDUCATION</pattern>
-<template>Title:On Education \n Author:Russell  Bertrand \n Genre:philosophy \n SubGenre:education \n Height:203 \n Publisher:Routledge</template>
-</category>
-<category>
-<pattern>FREE WILL</pattern>
-<template>Title:Free Will \n Author:Harris  Sam \n Genre:nonfiction \n SubGenre:psychology \n Height:203 \n Publisher:FreePress</template>
-</category>
-<category>
-<pattern>BOOKLESS IN BAGHDAD</pattern>
-<template>Title:Bookless in Baghdad \n Author:Tharoor  Shashi \n Genre:nonfiction \n SubGenre:history \n Height:206 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>CASE OF THE LAME CANARY  THE</pattern>
-<template>Title:Case of the Lame Canary  The \n Author:Gardner  Earle Stanley \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:</template>
-</category>
-<category>
-<pattern>THEORY OF EVERYTHING  THE</pattern>
-<template>Title:Theory of Everything  The \n Author:Hawking  Stephen \n Genre:science \n SubGenre:physics \n Height:217 \n Publisher:Jaico</template>
-</category>
-<category>
-<pattern>NEW MARKETS AND OTHER ESSAYS</pattern>
-<template>Title:New Markets AND Other Essays \n Author:Drucker  Peter \n Genre:science \n SubGenre:economics \n Height:176 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>ELECTRIC UNIVERSE</pattern>
-<template>Title:Electric Universe \n Author:Bodanis  David \n Genre:science \n SubGenre:physics \n Height:201 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>HUNCHBACK OF NOTRE DAME  THE</pattern>
-<template>Title:Hunchback of Notre Dame  The \n Author:Hugo  Victor \n Genre:fiction \n SubGenre:classic \n Height:175 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>BURNING BRIGHT</pattern>
-<template>Title:Burning Bright \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:175 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>AGE OF DISCONTUINITY  THE</pattern>
-<template>Title:Age of Discontuinity  The \n Author:Drucker  Peter \n Genre:nonfiction \n SubGenre:economics \n Height:178 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>DOCTOR IN THE NUDE</pattern>
-<template>Title:Doctor in the Nude \n Author:Gordon  Richard \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>DOWN AND OUT IN PARIS AND LONDON</pattern>
-<template>Title:Down and Out in Paris AND London \n Author:Orwell  George \n Genre:nonfiction \n SubGenre:autobiography \n Height:179 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>IDENTITY AND VIOLENCE</pattern>
-<template>Title:Identity AND Violence \n Author:Sen  Amartya \n Genre:philosophy \n SubGenre:philosophy \n Height:219 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>BEYOND THE THREE SEAS</pattern>
-<template>Title:Beyond the Three Seas \n Author:Dalrymple  William \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:Random House</template>
-</category>
-<category>
-<pattern>WORLD'S GREATEST SHORT STORIES  THE</pattern>
-<template>Title:World's Greatest Short Stories  The \n Author: \n Genre:fiction \n SubGenre:classic \n Height:217 \n Publisher:Jaico</template>
-</category>
-<category>
-<pattern>TALKING STRAIGHT</pattern>
-<template>Title:Talking Straight \n Author:Iacoca  Lee \n Genre:nonfiction \n SubGenre:autobiography \n Height:175 \n Publisher:</template>
-</category>
-<category>
-<pattern>MAUGHAM'S COLLECTED SHORT STORIES  VOL 3</pattern>
-<template>Title:Maugham's Collected Short Stories  Vol 3 \n Author:Maugham  William S \n Genre:fiction \n SubGenre:classic \n Height:171 \n Publisher:Vintage</template>
-</category>
-<category>
-<pattern>PHANTOM OF MANHATTAN  THE</pattern>
-<template>Title:Phantom of Manhattan  The \n Author:Forsyth  Frederick \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>ASHENDEN OF THE BRITISH AGENT</pattern>
-<template>Title:Ashenden of The British Agent \n Author:Maugham  William S \n Genre:fiction \n SubGenre:classic \n Height:160 \n Publisher:Vintage</template>
-</category>
-<category>
-<pattern>ZEN AND THE ART OF MOTORCYCLE MAINTENANCE</pattern>
-<template>Title:Zen AND The Art of Motorcycle Maintenance \n Author:Pirsig  Robert \n Genre:philosophy \n SubGenre:autobiography \n Height:172 \n Publisher:Vintage</template>
-</category>
-<category>
-<pattern>GREAT WAR FOR CIVILIZATION  THE</pattern>
-<template>Title:Great War for Civilization  The \n Author:Fisk  Robert \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:HarperCollins</template>
-</category>
-<category>
-<pattern>WE THE LIVING</pattern>
-<template>Title:We the Living \n Author:Rand  Ayn \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>ARTIST AND THE MATHEMATICIAN  THE</pattern>
-<template>Title:Artist and the Mathematician  The \n Author:Aczel  Amir \n Genre:science \n SubGenre:mathematics \n Height:186 \n Publisher:HighStakes</template>
-</category>
-<category>
-<pattern>HISTORY OF WESTERN PHILOSOPHY</pattern>
-<template>Title:History of Western Philosophy \n Author:Russell  Bertrand \n Genre:philosophy \n SubGenre:philosophy \n Height:213 \n Publisher:Routledge</template>
-</category>
-<category>
-<pattern>SELECTED SHORT STORIES</pattern>
-<template>Title:Selected Short Stories \n Author: \n Genre:fiction \n SubGenre:classic \n Height:215 \n Publisher:Jaico</template>
-</category>
-<category>
-<pattern>RATIONALITY AND FREEDOM</pattern>
-<template>Title:Rationality AND Freedom \n Author:Sen  Amartya \n Genre:science \n SubGenre:economics \n Height:213 \n Publisher:Springer</template>
-</category>
-<category>
-<pattern>CLASH OF CIVILIZATIONS AND REMAKING OF THE WORLD ORDER</pattern>
-<template>Title:Clash of Civilizations and Remaking of the World Order \n Author:Huntington  Samuel \n Genre:nonfiction \n SubGenre:history \n Height:228 \n Publisher:SimonANDSchuster</template>
-</category>
-<category>
-<pattern>UNCOMMON WISDOM</pattern>
-<template>Title:Uncommon Wisdom \n Author:Capra  Fritjof \n Genre:nonfiction \n SubGenre:anthology \n Height:197 \n Publisher:Fontana</template>
-</category>
-<category>
-<pattern>ONE</pattern>
-<template>Title:One \n Author:Bach  Richard \n Genre:nonfiction \n SubGenre:autobiography \n Height:172 \n Publisher:Dell</template>
-</category>
-<category>
-<pattern>KARL MARX BIOGRAPHY</pattern>
-<template>Title:Karl Marx Biography \n Author: \n Genre:nonfiction \n SubGenre:autobiography \n Height:162 \n Publisher:</template>
-</category>
-<category>
-<pattern>TO SIR WITH LOVE</pattern>
-<template>Title:To Sir With Love \n Author:Braithwaite \n Genre:fiction \n SubGenre:classic \n Height:197 \n Publisher:Penguin</template>
-</category>
-<category>
-<pattern>HALF A LIFE</pattern>
-<template>Title:Half A Life \n Author:Naipaul  V S \n Genre:fiction \n SubGenre:novel \n Height:196 \n Publisher:</template>
-</category>
-<category>
-<pattern>DISCOVERY OF INDIA  THE</pattern>
-<template>Title:Discovery of India  The \n Author:Nehru  Jawaharlal \n Genre:nonfiction \n SubGenre:history \n Height:230 \n Publisher:</template>
-</category>
-<category>
-<pattern>APULKI</pattern>
-<template>Title:Apulki \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:211 \n Publisher:</template>
-</category>
-<category>
-<pattern>UNPOPULAR ESSAYS</pattern>
-<template>Title:Unpopular Essays \n Author:Russell  Bertrand \n Genre:philosophy \n SubGenre:philosophy \n Height:198 \n Publisher:</template>
-</category>
-<category>
-<pattern>DECEIVER  THE</pattern>
-<template>Title:Deceiver  The \n Author:Forsyth  Frederick \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher:</template>
-</category>
-<category>
-<pattern>VEIL: SECRET WARS OF THE CIA</pattern>
-<template>Title:Veil: Secret Wars of the CIA \n Author:Woodward  Bob \n Genre:nonfiction \n SubGenre:history \n Height:171 \n Publisher:</template>
-</category>
-<category>
-<pattern>CHAR SHABDA</pattern>
-<template>Title:Char Shabda \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:214 \n Publisher:</template>
-</category>
-<category>
-<pattern>ROSY IS MY RELATIVE</pattern>
-<template>Title:Rosy is My Relative \n Author:Durrell  Gerald \n Genre:fiction \n SubGenre:novel \n Height:176 \n Publisher:</template>
-</category>
-<category>
-<pattern>MOON AND SIXPENCE  THE</pattern>
-<template>Title:Moon and Sixpence  The \n Author:Maugham  William S \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>POLITICAL PHILOSOPHERS</pattern>
-<template>Title:Political Philosophers \n Author: \n Genre:philosophy \n SubGenre:politics \n Height:162 \n Publisher:</template>
-</category>
-<category>
-<pattern>SHORT HISTORY OF THE WORLD  A</pattern>
-<template>Title:Short History of the World  A \n Author:Wells  H G \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:</template>
-</category>
-<category>
-<pattern>TREMBLING OF A LEAF  THE</pattern>
-<template>Title:Trembling of a Leaf  The \n Author:Maugham  William S \n Genre:fiction \n SubGenre:novel \n Height:205 \n Publisher:</template>
-</category>
-<category>
-<pattern>DOCTOR ON THE BRAIN</pattern>
-<template>Title:Doctor on the Brain \n Author:Gordon  Richard \n Genre:fiction \n SubGenre:novel \n Height:204 \n Publisher:</template>
-</category>
-<category>
-<pattern>SIMPSONS AND THEIR MATHEMATICAL SECRETS</pattern>
-<template>Title:Simpsons AND Their Mathematical Secrets \n Author:Singh  Simon \n Genre:science \n SubGenre:mathematics \n Height:233 \n Publisher:</template>
-</category>
-<category>
-<pattern>PATTERN CLASSIFICATION</pattern>
-<template>Title:Pattern Classification \n Author:Duda  Hart \n Genre:tech \n SubGenre:data_science \n Height:241 \n Publisher:</template>
-</category>
-<category>
-<pattern>FROM BEIRUT TO JERUSALEM</pattern>
-<template>Title:From Beirut to Jerusalem \n Author:Friedman  Thomas \n Genre:nonfiction \n SubGenre:history \n Height:202 \n Publisher:</template>
-</category>
-<category>
-<pattern>CODE BOOK  THE</pattern>
-<template>Title:Code Book  The \n Author:Singh  Simon \n Genre:science \n SubGenre:mathematics \n Height:197 \n Publisher:</template>
-</category>
-<category>
-<pattern>AGE OF THE WARRIOR  THE</pattern>
-<template>Title:Age of the Warrior  The \n Author:Fisk  Robert \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:</template>
-</category>
-<category>
-<pattern>FINAL CRISIS</pattern>
-<template>Title:Final Crisis \n Author: \n Genre:fiction \n SubGenre:comic \n Height:257 \n Publisher:</template>
-</category>
-<category>
-<pattern>KILLING JOKE  THE</pattern>
-<template>Title:Killing Joke  The \n Author: \n Genre:fiction \n SubGenre:comic \n Height:283 \n Publisher:</template>
-</category>
-<category>
-<pattern>FLASHPOINT</pattern>
-<template>Title:Flashpoint \n Author: \n Genre:fiction \n SubGenre:comic \n Height:265 \n Publisher:</template>
-</category>
-<category>
-<pattern>BATMAN EARTH ONE</pattern>
-<template>Title:Batman Earth One \n Author: \n Genre:fiction \n SubGenre:comic \n Height:265 \n Publisher:</template>
-</category>
-<category>
-<pattern>CRISIS ON INFINITE EARTHS</pattern>
-<template>Title:Crisis on Infinite Earths \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>NUMBERS BEHIND NUMB3RS  THE</pattern>
-<template>Title:Numbers Behind Numb3rs  The \n Author:Devlin  Keith \n Genre:science \n SubGenre:mathematics \n Height:202 \n Publisher:</template>
-</category>
-<category>
-<pattern>SUPERMAN EARTH ONE - 1</pattern>
-<template>Title:Superman Earth One - 1 \n Author: \n Genre:fiction \n SubGenre:comic \n Height:259 \n Publisher:</template>
-</category>
-<category>
-<pattern>SUPERMAN EARTH ONE - 2</pattern>
-<template>Title:Superman Earth One - 2 \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>JUSTICE LEAGUE: THRONE OF ATLANTIS</pattern>
-<template>Title:Justice League: Throne of Atlantis \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>JUSTICE LEAGUE: THE VILLAIN'S JOURNEY</pattern>
-<template>Title:Justice League: The Villain's Journey \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>DEATH OF SUPERMAN  THE</pattern>
-<template>Title:Death of Superman  The \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>HISTORY OF THE DC UNIVERSE</pattern>
-<template>Title:History of the DC Universe \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>BATMAN: THE LONG HALLOWEEN</pattern>
-<template>Title:Batman: The Long Halloween \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher:</template>
-</category>
-<category>
-<pattern>LIFE IN LETTERS  A</pattern>
-<template>Title:Life in Letters  A \n Author:Steinbeck  John \n Genre:nonfiction \n SubGenre:autobiography \n Height:196 \n Publisher:</template>
-</category>
-<category>
-<pattern>INFORMATION  THE</pattern>
-<template>Title:Information  The \n Author:Gleick  James \n Genre:science \n SubGenre:mathematics \n Height:233 \n Publisher:</template>
-</category>
-<category>
-<pattern>JOURNAL OF ECONOMICS  VOL 106 NO 3</pattern>
-<template>Title:Journal of Economics  vol 106 No 3 \n Author: \n Genre:science \n SubGenre:economics \n Height:235 \n Publisher:</template>
-</category>
-<category>
-<pattern>ELEMENTS OF INFORMATION THEORY</pattern>
-<template>Title:Elements of Information Theory \n Author:Thomas  Joy \n Genre:tech \n SubGenre:signal_processing \n Height:229 \n Publisher:</template>
-</category>
-<category>
-<pattern>POWER ELECTRONICS - RASHID</pattern>
-<template>Title:Power Electronics - Rashid \n Author:Rashid  Muhammad \n Genre:tech \n SubGenre:computer_science \n Height:235 \n Publisher:</template>
-</category>
-<category>
-<pattern>POWER ELECTRONICS - MOHAN</pattern>
-<template>Title:Power Electronics - Mohan \n Author:Mohan  Ned \n Genre:tech \n SubGenre:computer_science \n Height:237 \n Publisher:</template>
-</category>
-<category>
-<pattern>NEURAL NETWORKS</pattern>
-<template>Title:Neural Networks \n Author:Haykin  Simon \n Genre:tech \n SubGenre:data_science \n Height:240 \n Publisher:</template>
-</category>
-<category>
-<pattern>GRAPES OF WRATH  THE</pattern>
-<template>Title:Grapes of Wrath  The \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:</template>
-</category>
-<category>
-<pattern>VYAKTI ANI VALLI</pattern>
-<template>Title:Vyakti ani Valli \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:211 \n Publisher:</template>
-</category>
-<category>
-<pattern>STATISTICAL LEARNING THEORY</pattern>
-<template>Title:Statistical Learning Theory \n Author:Vapnik  Vladimir \n Genre:tech \n SubGenre:data_science \n Height:228 \n Publisher:</template>
-</category>
-<category>
-<pattern>EMPIRE OF THE MUGHAL - THE TAINTED THRONE</pattern>
-<template>Title:Empire of the Mughal - The Tainted Throne \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>EMPIRE OF THE MUGHAL - BROTHERS AT WAR</pattern>
-<template>Title:Empire of the Mughal - Brothers at War \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>EMPIRE OF THE MUGHAL - RULER OF THE WORLD</pattern>
-<template>Title:Empire of the Mughal - Ruler of the World \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>EMPIRE OF THE MUGHAL - THE SERPENT'S TOOTH</pattern>
-<template>Title:Empire of the Mughal - The Serpent's Tooth \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>EMPIRE OF THE MUGHAL - RAIDERS FROM THE NORTH</pattern>
-<template>Title:Empire of the Mughal - Raiders from the North \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>MOSSAD</pattern>
-<template>Title:Mossad \n Author:Baz-Zohar  Michael \n Genre:nonfiction \n SubGenre:history \n Height:236 \n Publisher:</template>
-</category>
-<category>
-<pattern>JIM CORBETT OMNIBUS</pattern>
-<template>Title:Jim Corbett Omnibus \n Author:Corbett  Jim \n Genre:nonfiction \n SubGenre:history \n Height:223 \n Publisher:</template>
-</category>
-<category>
-<pattern>20000 LEAGUES UNDER THE SEA</pattern>
-<template>Title:20000 Leagues Under the Sea \n Author:Verne  Jules \n Genre:fiction \n SubGenre:novel \n Height:190 \n Publisher:</template>
-</category>
-<category>
-<pattern>BATATYACHI CHAL</pattern>
-<template>Title:Batatyachi Chal \n Author:Deshpande P L \n Genre:fiction \n SubGenre:novel \n Height:200 \n Publisher:</template>
-</category>
-<category>
-<pattern>HAFASAVNUK</pattern>
-<template>Title:Hafasavnuk \n Author:Deshpande P L \n Genre:fiction \n SubGenre:novel \n Height:211 \n Publisher:</template>
-</category>
-<category>
-<pattern>URLASURLA</pattern>
-<template>Title:Urlasurla \n Author:Deshpande P L \n Genre:fiction \n SubGenre:novel \n Height:211 \n Publisher:</template>
-</category>
-<category>
-<pattern>POINTERS IN C</pattern>
-<template>Title:Pointers in C \n Author:Kanetkar  Yashwant \n Genre:tech \n SubGenre:computer_science \n Height:213 \n Publisher:</template>
-</category>
-<category>
-<pattern>CATHEDRAL AND THE BAZAAR  THE</pattern>
-<template>Title:Cathedral and the Bazaar  The \n Author:Raymond  Eric \n Genre:tech \n SubGenre:computer_science \n Height:217 \n Publisher:</template>
-</category>
-<category>
-<pattern>DESIGN WITH OPAMPS</pattern>
-<template>Title:Design with OpAmps \n Author:Franco  Sergio \n Genre:tech \n SubGenre:computer_science \n Height:240 \n Publisher:</template>
-</category>
-<category>
-<pattern>THINK COMPLEXITY</pattern>
-<template>Title:Think Complexity \n Author:Downey  Allen \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher:</template>
-</category>
-<category>
-<pattern>DEVIL'S ADVOCATE  THE</pattern>
-<template>Title:Devil's Advocate  The \n Author:West  Morris \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher:</template>
-</category>
-<category>
-<pattern>AYN RAND ANSWERS</pattern>
-<template>Title:Ayn Rand Answers \n Author:Rand  Ayn \n Genre:philosophy \n SubGenre:objectivism \n Height:203 \n Publisher:</template>
-</category>
-<category>
-<pattern>PHILOSOPHY: WHO NEEDS IT</pattern>
-<template>Title:Philosophy: Who Needs It \n Author:Rand  Ayn \n Genre:philosophy \n SubGenre:objectivism \n Height:171 \n Publisher:</template>
-</category>
-<category>
-<pattern>WORLD'S GREAT THINKERS  THE</pattern>
-<template>Title:World's Great Thinkers  The \n Author: \n Genre:science \n SubGenre:physics \n Height:189 \n Publisher:</template>
-</category>
-<category>
-<pattern>DATA ANALYSIS WITH OPEN SOURCE TOOLS</pattern>
-<template>Title:Data Analysis with Open Source Tools \n Author:Janert  Phillip \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher:</template>
-</category>
-<category>
-<pattern>BROCA'S BRAIN</pattern>
-<template>Title:Broca's Brain \n Author:Sagan  Carl \n Genre:science \n SubGenre:physics \n Height:174 \n Publisher:</template>
-</category>
-<category>
-<pattern>MEN OF MATHEMATICS</pattern>
-<template>Title:Men of Mathematics \n Author:Bell  E T \n Genre:science \n SubGenre:mathematics \n Height:217 \n Publisher:</template>
-</category>
-<category>
-<pattern>OXFORD BOOK OF MODERN SCIENCE WRITING</pattern>
-<template>Title:Oxford book of Modern Science Writing \n Author:Dawkins  Richard \n Genre:science \n SubGenre:science \n Height:240 \n Publisher:</template>
-</category>
-<category>
-<pattern>JUSTICE  JUDICIARY AND DEMOCRACY</pattern>
-<template>Title:Justice  Judiciary and Democracy \n Author:Ranjan  Sudhanshu \n Genre:nonfiction \n SubGenre:legal \n Height:224 \n Publisher:</template>
-</category>
-<category>
-<pattern>ARTHASHASTRA  THE</pattern>
-<template>Title:Arthashastra  The \n Author:Kautiyla \n Genre:philosophy \n SubGenre:philosophy \n Height:214 \n Publisher:</template>
-</category>
-<category>
-<pattern>WE THE PEOPLE</pattern>
-<template>Title:We the People \n Author:Palkhivala \n Genre:philosophy \n SubGenre:philosophy \n Height:216 \n Publisher:</template>
-</category>
-<category>
-<pattern>WE THE NATION</pattern>
-<template>Title:We the Nation \n Author:Palkhivala \n Genre:philosophy \n SubGenre:philosophy \n Height:216 \n Publisher:</template>
-</category>
-<category>
-<pattern>COURTROOM GENIUS  THE</pattern>
-<template>Title:Courtroom Genius  The \n Author:Sorabjee \n Genre:nonfiction \n SubGenre:autobiography \n Height:217 \n Publisher:</template>
-</category>
-<category>
-<pattern>DONGRI TO DUBAI</pattern>
-<template>Title:Dongri to Dubai \n Author:Zaidi  Hussain \n Genre:nonfiction \n SubGenre:history \n Height:216 \n Publisher:</template>
-</category>
-<category>
-<pattern>HISTORY OF ENGLAND  FOUNDATION</pattern>
-<template>Title:History of England  Foundation \n Author:Ackroyd  Peter \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:</template>
-</category>
-<category>
-<pattern>CITY OF DJINNS</pattern>
-<template>Title:City of Djinns \n Author:Dalrymple  William \n Genre:nonfiction \n SubGenre:history \n Height:198 \n Publisher:</template>
-</category>
-<category>
-<pattern>INDIA'S LEGAL SYSTEM</pattern>
-<template>Title:India's Legal System \n Author:Nariman \n Genre:nonfiction \n SubGenre:legal \n Height:177 \n Publisher:</template>
-</category>
-<category>
-<pattern>MORE TEARS TO CRY</pattern>
-<template>Title:More Tears to Cry \n Author:Sassoon  Jean \n Genre:fiction \n SubGenre:novel \n Height:235 \n Publisher:</template>
-</category>
-<category>
-<pattern>ROPEMAKER  THE</pattern>
-<template>Title:Ropemaker  The \n Author:Dickinson  Peter \n Genre:fiction \n SubGenre:novel \n Height:196 \n Publisher:</template>
+<that>* BOOK S NAME *</that>
+<template>Title:Angels AND Demons \n Author:Brown  Dan \n Genre:fiction \n SubGenre:novel \n Height:170 \n Publisher: \n Price: Rs.1372 \n Would you like to buy that book?</template>
 </category>
 <category>
 <pattern>ANGELS AND DEMONS</pattern>
-<template>Title:Angels AND Demons \n Author:Brown  Dan \n Genre:fiction \n SubGenre:novel \n Height:170 \n Publisher:</template>
-</category>
-<category>
-<pattern>JUDGE  THE</pattern>
-<template>Title:Judge  The \n Author: \n Genre:fiction \n SubGenre:novel \n Height:170 \n Publisher:</template>
-</category>
-<category>
-<pattern>ATTORNEY  THE</pattern>
-<template>Title:Attorney  The \n Author: \n Genre:fiction \n SubGenre:novel \n Height:170 \n Publisher:</template>
-</category>
-<category>
-<pattern>PRINCE  THE</pattern>
-<template>Title:Prince  The \n Author:Machiavelli \n Genre:fiction \n SubGenre:classic \n Height:173 \n Publisher:</template>
-</category>
-<category>
-<pattern>EYELESS IN GAZA</pattern>
-<template>Title:Eyeless in Gaza \n Author:Huxley  Aldous \n Genre:fiction \n SubGenre:novel \n Height:180 \n Publisher:</template>
-</category>
-<category>
-<pattern>TALES OF BEEDLE THE BARD</pattern>
-<template>Title:Tales of Beedle the Bard \n Author:Rowling  J K \n Genre:fiction \n SubGenre:novel \n Height:184 \n Publisher:</template>
-</category>
-<category>
-<pattern>GIRL WITH THE DRAGON TATTOO</pattern>
-<template>Title:Girl with the Dragon Tattoo \n Author:Larsson  Steig \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:</template>
-</category>
-<category>
-<pattern>GIRL WHO KICKED THE HORNET'S NEST</pattern>
-<template>Title:Girl who kicked the Hornet's Nest \n Author:Larsson  Steig \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:</template>
-</category>
-<category>
-<pattern>GIRL WHO PLAYED WITH FIRE</pattern>
-<template>Title:Girl who played with Fire \n Author:Larsson  Steig \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:</template>
-</category>
-<category>
-<pattern>BATMAN HANDBOOK</pattern>
-<template>Title:Batman Handbook \n Author: \n Genre:fiction \n SubGenre:comic \n Height:270 \n Publisher:</template>
-</category>
-<category>
-<pattern>MURPHY'S LAW</pattern>
-<template>Title:Murphy's Law \n Author: \n Genre:philosophy \n SubGenre:psychology \n Height:178 \n Publisher:</template>
-</category>
-<category>
-<pattern>STRUCTURE AND RANDOMNESS</pattern>
-<template>Title:Structure and Randomness \n Author:Tao  Terence \n Genre:science \n SubGenre:mathematics \n Height:252 \n Publisher:</template>
-</category>
-<category>
-<pattern>IMAGE PROCESSING WITH MATLAB</pattern>
-<template>Title:Image Processing with MATLAB \n Author:Eddins  Steve \n Genre:tech \n SubGenre:signal_processing \n Height:241 \n Publisher:</template>
+<that>* BOOK S NAME *</that>
+<template>Title:Angels AND Demons \n Author:Brown  Dan \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher:Random House \n Price: Rs.902 \n Would you like to buy that book?</template>
 </category>
 <category>
 <pattern>ANIMAL FARM</pattern>
-<template>Title:Animal Farm \n Author:Orwell  George \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher:</template>
+<that>* BOOK S NAME *</that>
+<template>Title:Animal Farm \n Author:Orwell  George \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher: \n Price: Rs.981 \n Would you like to buy that book?</template>
 </category>
 <category>
-<pattern>IDIOT  THE</pattern>
-<template>Title:Idiot  The \n Author:Dostoevsky  Fyodor \n Genre:fiction \n SubGenre:classic \n Height:197 \n Publisher:</template>
+<pattern>ASAMI ASAMI</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Asami Asami \n Author:Deshpande  P L \n Genre:fiction \n SubGenre:novel \n Height:205 \n Publisher:Mauj \n Price: Rs.883 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ASHENDEN OF THE BRITISH AGENT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Ashenden of The British Agent \n Author:Maugham  William S \n Genre:fiction \n SubGenre:classic \n Height:160 \n Publisher:Vintage \n Price: Rs.705 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ATTORNEY  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Attorney  The \n Author: \n Genre:fiction \n SubGenre:novel \n Height:170 \n Publisher: \n Price: Rs.787 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BATATYACHI CHAL</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Batatyachi Chal \n Author:Deshpande P L \n Genre:fiction \n SubGenre:novel \n Height:200 \n Publisher: \n Price: Rs.716 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BATMAN EARTH ONE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Batman Earth One \n Author: \n Genre:fiction \n SubGenre:comic \n Height:265 \n Publisher: \n Price: Rs.1155 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BATMAN HANDBOOK</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Batman Handbook \n Author: \n Genre:fiction \n SubGenre:comic \n Height:270 \n Publisher: \n Price: Rs.1023 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BATMAN THE LONG HALLOWEEN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Batman: The Long Halloween \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.1081 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BRETHREN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Brethren  The \n Author:Grisham  John \n Genre:fiction \n SubGenre:novel \n Height:174 \n Publisher:Random House \n Price: Rs.705 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BURNING BRIGHT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Burning Bright \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:175 \n Publisher:Penguin \n Price: Rs.845 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CASE OF THE LAME CANARY  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Case of the Lame Canary  The \n Author:Gardner  Earle Stanley \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher: \n Price: Rs.1016 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CATCH 22</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Catch 22 \n Author:Heller  Joseph \n Genre:fiction \n SubGenre:classic \n Height:178 \n Publisher:Random House \n Price: Rs.811 \n Would you like to buy that book?</template>
 </category>
 <category>
 <pattern>CHRISTMAS CAROL  A</pattern>
-<template>Title:Christmas Carol  A \n Author:Dickens  Charles \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:</template>
+<that>* BOOK S NAME *</that>
+<template>Title:Christmas Carol  A \n Author:Dickens  Charles \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher: \n Price: Rs.810 \n Would you like to buy that book?</template>
 </category>
+<category>
+<pattern>CITY OF JOY  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:City of Joy  The \n Author:Lapierre  Dominique \n Genre:fiction \n SubGenre:novel \n Height:177 \n Publisher:vikas \n Price: Rs.1358 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>COMPLETE SHERLOCK HOLMES  THE   VOL I</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Complete Sherlock Holmes  The   Vol I \n Author:Doyle  Arthur Conan \n Genre:fiction \n SubGenre:classic \n Height:176 \n Publisher:Random House \n Price: Rs.1328 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>COMPLETE SHERLOCK HOLMES  THE   VOL II</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Complete Sherlock Holmes  The   Vol II \n Author:Doyle  Arthur Conan \n Genre:fiction \n SubGenre:classic \n Height:176 \n Publisher:Random House \n Price: Rs.789 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CRIME AND PUNISHMENT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Crime and Punishment \n Author:Dostoevsky  Fyodor \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher:Penguin \n Price: Rs.1394 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CRISIS ON INFINITE EARTHS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Crisis on Infinite Earths \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.1121 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DEATH OF SUPERMAN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Death of Superman  The \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.983 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DECEIVER  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Deceiver  The \n Author:Forsyth  Frederick \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher: \n Price: Rs.776 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DEVILS ADVOCATE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Devils Advocate  The \n Author:West  Morris \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher: \n Price: Rs.821 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DOCTOR IN THE NUDE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Doctor in the Nude \n Author:Gordon  Richard \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher:Penguin \n Price: Rs.823 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DOCTOR ON THE BRAIN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Doctor on the Brain \n Author:Gordon  Richard \n Genre:fiction \n SubGenre:novel \n Height:204 \n Publisher: \n Price: Rs.1277 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>EYELESS IN GAZA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Eyeless in Gaza \n Author:Huxley  Aldous \n Genre:fiction \n SubGenre:novel \n Height:180 \n Publisher: \n Price: Rs.1330 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FALSE IMPRESSIONS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:False Impressions \n Author:Archer  Jeffery \n Genre:fiction \n SubGenre:novel \n Height:177 \n Publisher:Pan \n Price: Rs.1318 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FAREWELL TO ARMS  A</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Farewell to Arms  A \n Author:Hemingway  Ernest \n Genre:fiction \n SubGenre:classic \n Height:179 \n Publisher:Rupa \n Price: Rs.1002 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FINAL CRISIS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Final Crisis \n Author: \n Genre:fiction \n SubGenre:comic \n Height:257 \n Publisher: \n Price: Rs.1065 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FLASHPOINT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Flashpoint \n Author: \n Genre:fiction \n SubGenre:comic \n Height:265 \n Publisher: \n Price: Rs.812 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GIRL WHO KICKED THE HORNETS NEST</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Girl who kicked the Hornets Nest \n Author:Larsson  Steig \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher: \n Price: Rs.702 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GIRL WHO PLAYED WITH FIRE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Girl who played with Fire \n Author:Larsson  Steig \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher: \n Price: Rs.1364 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GIRL WITH THE DRAGON TATTOO</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Girl with the Dragon Tattoo \n Author:Larsson  Steig \n Genre:fiction \n SubGenre:novel \n Height:179 \n Publisher: \n Price: Rs.997 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GRAPES OF WRATH  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Grapes of Wrath  The \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher: \n Price: Rs.1324 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GREAT INDIAN NOVEL  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Great Indian Novel  The \n Author:Tharoor  Shashi \n Genre:fiction \n SubGenre:novel \n Height:198 \n Publisher:Penguin \n Price: Rs.869 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HAFASAVNUK</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Hafasavnuk \n Author:Deshpande P L \n Genre:fiction \n SubGenre:novel \n Height:211 \n Publisher: \n Price: Rs.1225 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HALF A LIFE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Half A Life \n Author:Naipaul  V S \n Genre:fiction \n SubGenre:novel \n Height:196 \n Publisher: \n Price: Rs.1375 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HISTORY OF THE DC UNIVERSE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:History of the DC Universe \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.901 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HUNCHBACK OF NOTRE DAME  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Hunchback of Notre Dame  The \n Author:Hugo  Victor \n Genre:fiction \n SubGenre:classic \n Height:175 \n Publisher:Random House \n Price: Rs.862 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>IDIOT  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Idiot  The \n Author:Dostoevsky  Fyodor \n Genre:fiction \n SubGenre:classic \n Height:197 \n Publisher: \n Price: Rs.1308 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>IN A FREE STATE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:In a Free State \n Author:Naipaul  V. S. \n Genre:fiction \n SubGenre:novel \n Height:196 \n Publisher:Rupa \n Price: Rs.1394 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JOURNAL OF A NOVEL</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Journal of a Novel \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:Penguin \n Price: Rs.1397 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JUDGE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Judge  The \n Author: \n Genre:fiction \n SubGenre:novel \n Height:170 \n Publisher: \n Price: Rs.1002 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JURASSIC PARK</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Jurassic Park \n Author:Crichton  Michael \n Genre:fiction \n SubGenre:novel \n Height:174 \n Publisher:Random House \n Price: Rs.749 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JUSTICE LEAGUE THE VILLAINS JOURNEY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Justice League: The Villains Journey \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.1048 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JUSTICE LEAGUE THRONE OF ATLANTIS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Justice League: Throne of Atlantis \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.809 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>KILLING JOKE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Killing Joke  The \n Author: \n Genre:fiction \n SubGenre:comic \n Height:283 \n Publisher: \n Price: Rs.811 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MAUGHAMS COLLECTED SHORT STORIES  VOL 3</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Maughams Collected Short Stories  Vol 3 \n Author:Maugham  William S \n Genre:fiction \n SubGenre:classic \n Height:171 \n Publisher:Vintage \n Price: Rs.975 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MOON AND SIXPENCE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Moon and Sixpence  The \n Author:Maugham  William S \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher: \n Price: Rs.764 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MOON IS DOWN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Moon is Down  The \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:Penguin \n Price: Rs.1395 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MORE TEARS TO CRY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:More Tears to Cry \n Author:Sassoon  Jean \n Genre:fiction \n SubGenre:novel \n Height:235 \n Publisher: \n Price: Rs.783 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>NEW MACHIAVELLI  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:New Machiavelli  The \n Author:Wells  H. G. \n Genre:fiction \n SubGenre:novel \n Height:180 \n Publisher:Penguin \n Price: Rs.1313 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>OUTSIDER  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Outsider  The \n Author:Camus  Albert \n Genre:fiction \n SubGenre:classic \n Height:198 \n Publisher:Penguin \n Price: Rs.1023 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PHANTOM OF MANHATTAN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Phantom of Manhattan  The \n Author:Forsyth  Frederick \n Genre:fiction \n SubGenre:classic \n Height:180 \n Publisher: \n Price: Rs.1354 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PILLARS OF THE EARTH  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Pillars of the Earth  The \n Author:Follett  Ken \n Genre:fiction \n SubGenre:novel \n Height:176 \n Publisher:Random House \n Price: Rs.933 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PRINCE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Prince  The \n Author:Machiavelli \n Genre:fiction \n SubGenre:classic \n Height:173 \n Publisher: \n Price: Rs.737 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PRISONER OF BIRTH  A</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Prisoner of Birth  A \n Author:Archer  Jeffery \n Genre:fiction \n SubGenre:novel \n Height:176 \n Publisher:Pan \n Price: Rs.1346 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>RAISIN IN THE SUN  A</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Raisin in the Sun  A \n Author:Hansberry  Lorraine \n Genre:fiction \n SubGenre:novel \n Height:175 \n Publisher:Penguin \n Price: Rs.1106 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ROPEMAKER  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Ropemaker  The \n Author:Dickinson  Peter \n Genre:fiction \n SubGenre:novel \n Height:196 \n Publisher: \n Price: Rs.1307 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ROSY IS MY RELATIVE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Rosy is My Relative \n Author:Durrell  Gerald \n Genre:fiction \n SubGenre:novel \n Height:176 \n Publisher: \n Price: Rs.998 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SEA OF POPPIES</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Sea of Poppies \n Author:Ghosh  Amitav \n Genre:fiction \n SubGenre:novel \n Height:197 \n Publisher:Penguin \n Price: Rs.762 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SELECTED SHORT STORIES</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Selected Short Stories \n Author: \n Genre:fiction \n SubGenre:classic \n Height:215 \n Publisher:Jaico \n Price: Rs.751 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SLAUGHTERHOUSE FIVE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Slaughterhouse Five \n Author:Vonnegut  Kurt \n Genre:fiction \n SubGenre:classic \n Height:198 \n Publisher:Random House \n Price: Rs.1352 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SUPERMAN EARTH ONE   1</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Superman Earth One   1 \n Author: \n Genre:fiction \n SubGenre:comic \n Height:259 \n Publisher: \n Price: Rs.1317 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SUPERMAN EARTH ONE   2</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Superman Earth One   2 \n Author: \n Genre:fiction \n SubGenre:comic \n Height:258 \n Publisher: \n Price: Rs.762 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TALES OF BEEDLE THE BARD</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Tales of Beedle the Bard \n Author:Rowling  J K \n Genre:fiction \n SubGenre:novel \n Height:184 \n Publisher: \n Price: Rs.742 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TALES OF MYSTERY AND IMAGINATION</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Tales of Mystery and Imagination \n Author:Poe  Edgar Allen \n Genre:fiction \n SubGenre:classic \n Height:172 \n Publisher:HarperCollins \n Price: Rs.1066 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TO SIR WITH LOVE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:To Sir With Love \n Author:Braithwaite \n Genre:fiction \n SubGenre:classic \n Height:197 \n Publisher:Penguin \n Price: Rs.1328 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TREMBLING OF A LEAF  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Trembling of a Leaf  The \n Author:Maugham  William S \n Genre:fiction \n SubGenre:novel \n Height:205 \n Publisher: \n Price: Rs.791 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TRIAL  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Trial  The \n Author:Kafka  Frank \n Genre:fiction \n SubGenre:classic \n Height:198 \n Publisher:Random House \n Price: Rs.1051 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>URLASURLA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Urlasurla \n Author:Deshpande P L \n Genre:fiction \n SubGenre:novel \n Height:211 \n Publisher: \n Price: Rs.835 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>VETERAN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Veteran  The \n Author:Forsyth  Frederick \n Genre:fiction \n SubGenre:novel \n Height:177 \n Publisher:Transworld \n Price: Rs.1352 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WE THE LIVING</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:We the Living \n Author:Rand  Ayn \n Genre:fiction \n SubGenre:novel \n Height:178 \n Publisher:Penguin \n Price: Rs.994 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WINTER OF OUR DISCONTENT  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Winter of Our Discontent  The \n Author:Steinbeck  John \n Genre:fiction \n SubGenre:classic \n Height:196 \n Publisher:Penguin \n Price: Rs.918 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WORLDS GREATEST SHORT STORIES  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Worlds Greatest Short Stories  The \n Author: \n Genre:fiction \n SubGenre:classic \n Height:217 \n Publisher:Jaico \n Price: Rs.837 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>AGE OF DISCONTUINITY  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Age of Discontuinity  The \n Author:Drucker  Peter \n Genre:nonfiction \n SubGenre:economics \n Height:178 \n Publisher:Random House \n Price: Rs.848 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>AGE OF THE WARRIOR  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Age of the Warrior  The \n Author:Fisk  Robert \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher: \n Price: Rs.1333 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>AGE OF WRATH  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Age of Wrath  The \n Author:Eraly  Abraham \n Genre:nonfiction \n SubGenre:history \n Height:238 \n Publisher:Penguin \n Price: Rs.992 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>AGHAL PAGHAL</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Aghal Paghal \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:212 \n Publisher:Mauj \n Price: Rs.1016 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>AHE MANOHAR TARI</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Ahe Manohar Tari \n Author:Deshpande  Sunita \n Genre:nonfiction \n SubGenre:autobiography \n Height:213 \n Publisher:Mauj \n Price: Rs.1141 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ALL THE PRESIDENTS MEN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:All the Presidents Men \n Author:Woodward  Bob \n Genre:nonfiction \n SubGenre:history \n Height:177 \n Publisher:Random House \n Price: Rs.1003 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>APULKI</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Apulki \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:211 \n Publisher: \n Price: Rs.759 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ARGUMENTATIVE INDIAN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Argumentative Indian  The \n Author:Sen  Amartya \n Genre:nonfiction \n SubGenre:history \n Height:209 \n Publisher:Picador \n Price: Rs.1168 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BEAUTIFUL AND THE DAMNED  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Beautiful and the Damned  The \n Author:Deb  Siddhartha \n Genre:nonfiction \n SubGenre:history \n Height:198 \n Publisher:Penguin \n Price: Rs.714 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BEYOND THE THREE SEAS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Beyond the Three Seas \n Author:Dalrymple  William \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:Random House \n Price: Rs.1197 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BOOKLESS IN BAGHDAD</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Bookless in Baghdad \n Author:Tharoor  Shashi \n Genre:nonfiction \n SubGenre:history \n Height:206 \n Publisher:Penguin \n Price: Rs.1321 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CHAR SHABDA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Char Shabda \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:214 \n Publisher: \n Price: Rs.733 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CITY OF DJINNS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:City of Djinns \n Author:Dalrymple  William \n Genre:nonfiction \n SubGenre:history \n Height:198 \n Publisher: \n Price: Rs.1252 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CLASH OF CIVILIZATIONS AND REMAKING OF THE WORLD ORDER</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Clash of Civilizations and Remaking of the World Order \n Author:Huntington  Samuel \n Genre:nonfiction \n SubGenre:history \n Height:228 \n Publisher:SimonANDSchuster \n Price: Rs.717 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>COMPLETE MASTERMIND  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Complete Mastermind  The \n Author:BBC \n Genre:nonfiction \n SubGenre:trivia \n Height:178 \n Publisher:BBC \n Price: Rs.733 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>COURTROOM GENIUS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Courtroom Genius  The \n Author:Sorabjee \n Genre:nonfiction \n SubGenre:autobiography \n Height:217 \n Publisher: \n Price: Rs.995 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DISCOVERY OF INDIA  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Discovery of India  The \n Author:Nehru  Jawaharlal \n Genre:nonfiction \n SubGenre:history \n Height:230 \n Publisher: \n Price: Rs.866 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DONGRI TO DUBAI</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Dongri to Dubai \n Author:Zaidi  Hussain \n Genre:nonfiction \n SubGenre:history \n Height:216 \n Publisher: \n Price: Rs.992 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DOWN AND OUT IN PARIS AND LONDON</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Down and Out in Paris AND London \n Author:Orwell  George \n Genre:nonfiction \n SubGenre:autobiography \n Height:179 \n Publisher:Penguin \n Price: Rs.1331 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DYLAN ON DYLAN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Dylan on Dylan \n Author:Dylan  Bob \n Genre:nonfiction \n SubGenre:autobiography \n Height:197 \n Publisher:Random House \n Price: Rs.953 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>EMPIRE OF THE MUGHAL   BROTHERS AT WAR</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Empire of the Mughal   Brothers at War \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher: \n Price: Rs.1021 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>EMPIRE OF THE MUGHAL   RAIDERS FROM THE NORTH</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Empire of the Mughal   Raiders from the North \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher: \n Price: Rs.1143 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>EMPIRE OF THE MUGHAL   RULER OF THE WORLD</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Empire of the Mughal   Ruler of the World \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher: \n Price: Rs.1273 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>EMPIRE OF THE MUGHAL   THE SERPENTS TOOTH</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Empire of the Mughal   The Serpents Tooth \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher: \n Price: Rs.788 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>EMPIRE OF THE MUGHAL   THE TAINTED THRONE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Empire of the Mughal   The Tainted Throne \n Author:Rutherford  Alex \n Genre:nonfiction \n SubGenre:history \n Height:180 \n Publisher: \n Price: Rs.954 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FREE WILL</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Free Will \n Author:Harris  Sam \n Genre:nonfiction \n SubGenre:psychology \n Height:203 \n Publisher:FreePress \n Price: Rs.773 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FREEDOM AT MIDNIGHT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Freedom at Midnight \n Author:Lapierre  Dominique \n Genre:nonfiction \n SubGenre:history \n Height:167 \n Publisher:vikas \n Price: Rs.1017 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FROM BEIRUT TO JERUSALEM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:From Beirut to Jerusalem \n Author:Friedman  Thomas \n Genre:nonfiction \n SubGenre:history \n Height:202 \n Publisher: \n Price: Rs.1247 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GREAT WAR FOR CIVILIZATION  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Great War for Civilization  The \n Author:Fisk  Robert \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:HarperCollins \n Price: Rs.931 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GUN GAYIN AWADI</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Gun Gayin Awadi \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:212 \n Publisher:Mauj \n Price: Rs.1129 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HISTORY OF ENGLAND  FOUNDATION</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:History of England  Foundation \n Author:Ackroyd  Peter \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher: \n Price: Rs.1281 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HOW TO THINK LIKE SHERLOCK HOLMES</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:How to Think Like Sherlock Holmes \n Author:Konnikova  Maria \n Genre:nonfiction \n SubGenre:psychology \n Height:240 \n Publisher:Penguin \n Price: Rs.1002 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>INDIA FROM MIDNIGHT TO MILENNIUM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:India from Midnight to Milennium \n Author:Tharoor  Shashi \n Genre:nonfiction \n SubGenre:history \n Height:198 \n Publisher:Penguin \n Price: Rs.1022 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>INDIAS LEGAL SYSTEM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Indias Legal System \n Author:Nariman \n Genre:nonfiction \n SubGenre:legal \n Height:177 \n Publisher: \n Price: Rs.975 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>INTEGRATION OF THE INDIAN STATES</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Integration of the Indian States \n Author:Menon  V P \n Genre:nonfiction \n SubGenre:history \n Height:217 \n Publisher:Orient Blackswan \n Price: Rs.1099 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JIM CORBETT OMNIBUS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Jim Corbett Omnibus \n Author:Corbett  Jim \n Genre:nonfiction \n SubGenre:history \n Height:223 \n Publisher: \n Price: Rs.1227 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JUSTICE  JUDICIARY AND DEMOCRACY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Justice  Judiciary and Democracy \n Author:Ranjan  Sudhanshu \n Genre:nonfiction \n SubGenre:legal \n Height:224 \n Publisher: \n Price: Rs.1181 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>KARL MARX BIOGRAPHY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Karl Marx Biography \n Author: \n Genre:nonfiction \n SubGenre:autobiography \n Height:162 \n Publisher: \n Price: Rs.1031 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>LAST LECTURE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Last Lecture  The \n Author:Pausch  Randy \n Genre:nonfiction \n SubGenre:autobiography \n Height:197 \n Publisher:Hyperion \n Price: Rs.903 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>LAST MUGHAL  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Last Mughal  The \n Author:Dalrymple  William \n Genre:nonfiction \n SubGenre:history \n Height:199 \n Publisher:Penguin \n Price: Rs.1074 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>LIFE IN LETTERS  A</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Life in Letters  A \n Author:Steinbeck  John \n Genre:nonfiction \n SubGenre:autobiography \n Height:196 \n Publisher: \n Price: Rs.1278 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MANASA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Manasa \n Author:Kale  V P \n Genre:nonfiction \n SubGenre:misc \n Height:213 \n Publisher:Mauj \n Price: Rs.914 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MAQTA E GHALIB</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Maqta e Ghalib \n Author:Garg  Sanjay \n Genre:nonfiction \n SubGenre:poetry \n Height:221 \n Publisher:Mauj \n Price: Rs.1131 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MEIN KAMPF</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Mein Kampf \n Author:Hitler  Adolf \n Genre:nonfiction \n SubGenre:autobiography \n Height:212 \n Publisher:Rupa \n Price: Rs.1229 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MOSSAD</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Mossad \n Author:Baz Zohar  Michael \n Genre:nonfiction \n SubGenre:history \n Height:236 \n Publisher: \n Price: Rs.813 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>O JERUSALEM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:O Jerusalem! \n Author:Lapierre  Dominique \n Genre:nonfiction \n SubGenre:history \n Height:217 \n Publisher:vikas \n Price: Rs.1137 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ONCE THERE WAS A WAR</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Once There Was a War \n Author:Steinbeck  John \n Genre:nonfiction \n SubGenre:history \n Height:196 \n Publisher:Penguin \n Price: Rs.708 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ONE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:One \n Author:Bach  Richard \n Genre:nonfiction \n SubGenre:autobiography \n Height:172 \n Publisher:Dell \n Price: Rs.1242 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ORIENTALISM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Orientalism \n Author:Said  Edward \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher:Penguin \n Price: Rs.1353 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>RADIOWARIL BHASHANE AND SHRUTIKA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Radiowaril Bhashane AND Shrutika \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:213 \n Publisher:Mauj \n Price: Rs.941 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>RUSSIAN JOURNAL  A</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Russian Journal  A \n Author:Steinbeck  John \n Genre:nonfiction \n SubGenre:history \n Height:196 \n Publisher:Penguin \n Price: Rs.941 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SCOOP</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Scoop! \n Author:Nayar  Kuldip \n Genre:nonfiction \n SubGenre:history \n Height:216 \n Publisher:HarperCollins \n Price: Rs.1243 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SHORT HISTORY OF THE WORLD  A</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Short History of the World  A \n Author:Wells  H G \n Genre:nonfiction \n SubGenre:history \n Height:197 \n Publisher: \n Price: Rs.749 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TALKING STRAIGHT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Talking Straight \n Author:Iacoca  Lee \n Genre:nonfiction \n SubGenre:autobiography \n Height:175 \n Publisher: \n Price: Rs.1159 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>UNCOMMON WISDOM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Uncommon Wisdom \n Author:Capra  Fritjof \n Genre:nonfiction \n SubGenre:anthology \n Height:197 \n Publisher:Fontana \n Price: Rs.1282 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>VEIL SECRET WARS OF THE CIA</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Veil: Secret Wars of the CIA \n Author:Woodward  Bob \n Genre:nonfiction \n SubGenre:history \n Height:171 \n Publisher: \n Price: Rs.1369 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>VYAKTI ANI VALLI</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Vyakti ani Valli \n Author:Deshpande  P L \n Genre:nonfiction \n SubGenre:misc \n Height:211 \n Publisher: \n Price: Rs.1115 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WORLDS GREATEST TRIALS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Worlds Greatest Trials  The \n Author: \n Genre:nonfiction \n SubGenre:history \n Height:210 \n Publisher: \n Price: Rs.1347 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ARTHASHASTRA  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Arthashastra  The \n Author:Kautiyla \n Genre:philosophy \n SubGenre:philosophy \n Height:214 \n Publisher: \n Price: Rs.1367 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>AYN RAND ANSWERS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Ayn Rand Answers \n Author:Rand  Ayn \n Genre:philosophy \n SubGenre:objectivism \n Height:203 \n Publisher: \n Price: Rs.1190 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BEYOND DEGREES</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Beyond Degrees \n Author: \n Genre:philosophy \n SubGenre:education \n Height:222 \n Publisher:HarperCollins \n Price: Rs.1030 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HISTORY OF WESTERN PHILOSOPHY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:History of Western Philosophy \n Author:Russell  Bertrand \n Genre:philosophy \n SubGenre:philosophy \n Height:213 \n Publisher:Routledge \n Price: Rs.1324 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>IDEA OF JUSTICE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Idea of Justice  The \n Author:Sen  Amartya \n Genre:philosophy \n SubGenre:economics \n Height:212 \n Publisher:Penguin \n Price: Rs.1148 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>IDENTITY AND VIOLENCE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Identity AND Violence \n Author:Sen  Amartya \n Genre:philosophy \n SubGenre:philosophy \n Height:219 \n Publisher:Penguin \n Price: Rs.1343 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MURPHYS LAW</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Murphys Law \n Author: \n Genre:philosophy \n SubGenre:psychology \n Height:178 \n Publisher: \n Price: Rs.810 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ON EDUCATION</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:On Education \n Author:Russell  Bertrand \n Genre:philosophy \n SubGenre:education \n Height:203 \n Publisher:Routledge \n Price: Rs.782 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PHILOSOPHY WHO NEEDS IT</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Philosophy: Who Needs It \n Author:Rand  Ayn \n Genre:philosophy \n SubGenre:objectivism \n Height:171 \n Publisher: \n Price: Rs.1272 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PHYSICS AND PHILOSOPHY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Physics AND Philosophy \n Author:Heisenberg  Werner \n Genre:philosophy \n SubGenre:science \n Height:197 \n Publisher:Penguin \n Price: Rs.1192 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>POLITICAL PHILOSOPHERS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Political Philosophers \n Author: \n Genre:philosophy \n SubGenre:politics \n Height:162 \n Publisher: \n Price: Rs.781 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>RETURN OF THE PRIMITIVE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Return of the Primitive \n Author:Rand  Ayn \n Genre:philosophy \n SubGenre:objectivism \n Height:202 \n Publisher:Penguin \n Price: Rs.1101 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>STORY OF PHILOSOPHY  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Story of Philosophy  The \n Author:Durant  Will \n Genre:philosophy \n SubGenre:history \n Height:170 \n Publisher:Pocket \n Price: Rs.751 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>UNPOPULAR ESSAYS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Unpopular Essays \n Author:Russell  Bertrand \n Genre:philosophy \n SubGenre:philosophy \n Height:198 \n Publisher: \n Price: Rs.985 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WE THE NATION</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:We the Nation \n Author:Palkhivala \n Genre:philosophy \n SubGenre:philosophy \n Height:216 \n Publisher: \n Price: Rs.718 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WE THE PEOPLE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:We the People \n Author:Palkhivala \n Genre:philosophy \n SubGenre:philosophy \n Height:216 \n Publisher: \n Price: Rs.1291 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ZEN AND THE ART OF MOTORCYCLE MAINTENANCE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Zen AND The Art of Motorcycle Maintenance \n Author:Pirsig  Robert \n Genre:philosophy \n SubGenre:autobiography \n Height:172 \n Publisher:Vintage \n Price: Rs.919 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ARTIST AND THE MATHEMATICIAN  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Artist and the Mathematician  The \n Author:Aczel  Amir \n Genre:science \n SubGenre:mathematics \n Height:186 \n Publisher:HighStakes \n Price: Rs.1187 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BIRTH OF A THEOREM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Birth of a Theorem \n Author:Villani  Cedric \n Genre:science \n SubGenre:mathematics \n Height:234 \n Publisher:Bodley Head \n Price: Rs.936 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>BROCAS BRAIN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Brocas Brain \n Author:Sagan  Carl \n Genre:science \n SubGenre:physics \n Height:174 \n Publisher: \n Price: Rs.825 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CODE BOOK  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Code Book  The \n Author:Singh  Simon \n Genre:science \n SubGenre:mathematics \n Height:197 \n Publisher: \n Price: Rs.1154 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DRUNKARDS WALK  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Drunkards Walk  The \n Author:Mlodinow  Leonard \n Genre:science \n SubGenre:mathematics \n Height:197 \n Publisher:Penguin \n Price: Rs.1305 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ELECTRIC UNIVERSE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Electric Universe \n Author:Bodanis  David \n Genre:science \n SubGenre:physics \n Height:201 \n Publisher:Penguin \n Price: Rs.1039 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FREAKONOMICS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Freakonomics \n Author:Dubner  Stephen \n Genre:science \n SubGenre:economics \n Height:197 \n Publisher:Penguin \n Price: Rs.1241 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>HIDDEN CONNECTIONS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Hidden Connections  The \n Author:Capra  Fritjof \n Genre:science \n SubGenre:physics \n Height:197 \n Publisher:HarperCollins \n Price: Rs.1025 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>INFORMATION  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Information  The \n Author:Gleick  James \n Genre:science \n SubGenre:mathematics \n Height:233 \n Publisher: \n Price: Rs.744 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>JOURNAL OF ECONOMICS  VOL 106 NO 3</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Journal of Economics  vol 106 No 3 \n Author: \n Genre:science \n SubGenre:economics \n Height:235 \n Publisher: \n Price: Rs.1150 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MEN OF MATHEMATICS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Men of Mathematics \n Author:Bell  E T \n Genre:science \n SubGenre:mathematics \n Height:217 \n Publisher: \n Price: Rs.926 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>NEW MARKETS AND OTHER ESSAYS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:New Markets AND Other Essays \n Author:Drucker  Peter \n Genre:science \n SubGenre:economics \n Height:176 \n Publisher:Penguin \n Price: Rs.1263 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>NUMBERS BEHIND NUMB3RS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Numbers Behind Numb3rs  The \n Author:Devlin  Keith \n Genre:science \n SubGenre:mathematics \n Height:202 \n Publisher: \n Price: Rs.1247 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>OXFORD BOOK OF MODERN SCIENCE WRITING</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Oxford book of Modern Science Writing \n Author:Dawkins  Richard \n Genre:science \n SubGenre:science \n Height:240 \n Publisher: \n Price: Rs.967 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>RATIONALITY AND FREEDOM</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Rationality AND Freedom \n Author:Sen  Amartya \n Genre:science \n SubGenre:economics \n Height:213 \n Publisher:Springer \n Price: Rs.1004 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SIMPSONS AND THEIR MATHEMATICAL SECRETS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Simpsons AND Their Mathematical Secrets \n Author:Singh  Simon \n Genre:science \n SubGenre:mathematics \n Height:233 \n Publisher: \n Price: Rs.1255 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>STRUCTURE AND RANDOMNESS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Structure and Randomness \n Author:Tao  Terence \n Genre:science \n SubGenre:mathematics \n Height:252 \n Publisher: \n Price: Rs.1291 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SUPERFREAKONOMICS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Superfreakonomics \n Author:Dubner  Stephen \n Genre:science \n SubGenre:economics \n Height:179 \n Publisher:HarperCollins \n Price: Rs.1045 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SURELY YOURE JOKING MR FEYNMAN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Surely Youre Joking Mr Feynman \n Author:Feynman  Richard \n Genre:science \n SubGenre:physics \n Height:198 \n Publisher:Random House \n Price: Rs.960 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TAO OF PHYSICS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Tao of Physics  The \n Author:Capra  Fritjof \n Genre:science \n SubGenre:physics \n Height:179 \n Publisher:Penguin \n Price: Rs.1294 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>THEORY OF EVERYTHING  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Theory of Everything  The \n Author:Hawking  Stephen \n Genre:science \n SubGenre:physics \n Height:217 \n Publisher:Jaico \n Price: Rs.920 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WEALTH OF NATIONS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Wealth of Nations  The \n Author:Smith  Adam \n Genre:science \n SubGenre:economics \n Height:175 \n Publisher:Random House \n Price: Rs.1047 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>WORLDS GREAT THINKERS  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Worlds Great Thinkers  The \n Author: \n Genre:science \n SubGenre:physics \n Height:189 \n Publisher: \n Price: Rs.982 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ANALYSIS  VOL I</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Analysis  Vol I \n Author:Tao  Terence \n Genre:tech \n SubGenre:mathematics \n Height:248 \n Publisher:HBA \n Price: Rs.1119 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>CATHEDRAL AND THE BAZAAR  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Cathedral and the Bazaar  The \n Author:Raymond  Eric \n Genre:tech \n SubGenre:computer_science \n Height:217 \n Publisher: \n Price: Rs.1193 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>COMPUTER VISION  A MODERN APPROACH</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Computer Vision  A Modern Approach \n Author:Forsyth  David \n Genre:tech \n SubGenre:signal_processing \n Height:255 \n Publisher:Pearson \n Price: Rs.1356 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DATA ANALYSIS WITH OPEN SOURCE TOOLS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Data Analysis with Open Source Tools \n Author:Janert  Phillip \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher: \n Price: Rs.1066 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DATA MINING HANDBOOK</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Data Mining Handbook \n Author:Nisbet  Robert \n Genre:tech \n SubGenre:data_science \n Height:242 \n Publisher:Apress \n Price: Rs.1324 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DATA SCIENTISTS AT WORK</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Data Scientists at Work \n Author:Sebastian Gutierrez \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher:Apress \n Price: Rs.1060 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DATA SMART</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Data Smart \n Author:Foreman  John \n Genre:tech \n SubGenre:data_science \n Height:235 \n Publisher:Wiley \n Price: Rs.1133 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DATA STRUCTURES USING C AND C++</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Data Structures Using C AND C++ \n Author:Tanenbaum  Andrew \n Genre:tech \n SubGenre:computer_science \n Height:235 \n Publisher:Prentice Hall \n Price: Rs.767 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>DESIGN WITH OPAMPS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Design with OpAmps \n Author:Franco  Sergio \n Genre:tech \n SubGenre:computer_science \n Height:240 \n Publisher: \n Price: Rs.1202 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ECONOMETRIC ANALYSIS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Econometric Analysis \n Author:Greene  W. H. \n Genre:tech \n SubGenre:economics \n Height:242 \n Publisher:Pearson \n Price: Rs.747 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>ELEMENTS OF INFORMATION THEORY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Elements of Information Theory \n Author:Thomas  Joy \n Genre:tech \n SubGenre:signal_processing \n Height:229 \n Publisher: \n Price: Rs.1388 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>FUNDAMENTALS OF WAVELETS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Fundamentals of Wavelets \n Author:Goswami  Jaideva \n Genre:tech \n SubGenre:signal_processing \n Height:228 \n Publisher:Wiley \n Price: Rs.1237 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>GOD CREATED THE INTEGERS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:God Created the Integers \n Author:Hawking  Stephen \n Genre:tech \n SubGenre:mathematics \n Height:197 \n Publisher:Penguin \n Price: Rs.1119 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>IMAGE PROCESSING AND MATHEMATICAL MORPHOLOGY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Image Processing AND Mathematical Morphology \n Author:Shih  Frank \n Genre:tech \n SubGenre:signal_processing \n Height:241 \n Publisher:CRC \n Price: Rs.887 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>IMAGE PROCESSING WITH MATLAB</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Image Processing with MATLAB \n Author:Eddins  Steve \n Genre:tech \n SubGenre:signal_processing \n Height:241 \n Publisher: \n Price: Rs.1270 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>INTRODUCTION TO ALGORITHMS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Introduction to Algorithms \n Author:Cormen  Thomas \n Genre:tech \n SubGenre:computer_science \n Height:234 \n Publisher:MIT Press \n Price: Rs.1068 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>LEARNING OPENCV</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Learning OpenCV \n Author:Bradsky  Gary \n Genre:tech \n SubGenre:signal_processing \n Height:232 \n Publisher:OReilly \n Price: Rs.1289 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>LET US C</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Let Us C \n Author:Kanetkar  Yashwant \n Genre:tech \n SubGenre:computer_science \n Height:213 \n Publisher:Prentice Hall \n Price: Rs.861 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MACHINE LEARNING FOR HACKERS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Machine Learning for Hackers \n Author:Conway  Drew \n Genre:tech \n SubGenre:data_science \n Height:233 \n Publisher:OReilly \n Price: Rs.1271 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>MAKING SOFTWARE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Making Software \n Author:Oram  Andy \n Genre:tech \n SubGenre:computer_science \n Height:232 \n Publisher:OReilly \n Price: Rs.881 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>NATURE OF STATISTICAL LEARNING THEORY  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Nature of Statistical Learning Theory  The \n Author:Vapnik  Vladimir \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher:Springer \n Price: Rs.1065 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>NEURAL NETWORKS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Neural Networks \n Author:Haykin  Simon \n Genre:tech \n SubGenre:data_science \n Height:240 \n Publisher: \n Price: Rs.1356 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PATTERN CLASSIFICATION</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Pattern Classification \n Author:Duda  Hart \n Genre:tech \n SubGenre:data_science \n Height:241 \n Publisher: \n Price: Rs.701 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>POINTERS IN C</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Pointers in C \n Author:Kanetkar  Yashwant \n Genre:tech \n SubGenre:computer_science \n Height:213 \n Publisher: \n Price: Rs.999 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>POWER ELECTRONICS   MOHAN</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Power Electronics   Mohan \n Author:Mohan  Ned \n Genre:tech \n SubGenre:computer_science \n Height:237 \n Publisher: \n Price: Rs.718 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>POWER ELECTRONICS   RASHID</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Power Electronics   Rashid \n Author:Rashid  Muhammad \n Genre:tech \n SubGenre:computer_science \n Height:235 \n Publisher: \n Price: Rs.949 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PRINCIPLES OF COMMUNICATION SYSTEMS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Principles of Communication Systems \n Author:Taub  Schilling \n Genre:tech \n SubGenre:signal_processing \n Height:240 \n Publisher:TMH \n Price: Rs.891 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>PYTHON FOR DATA ANALYSIS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Python for Data Analysis \n Author:McKinney  Wes \n Genre:tech \n SubGenre:data_science \n Height:233 \n Publisher:OReilly \n Price: Rs.995 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SIGNAL AND THE NOISE  THE</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Signal and the Noise  The \n Author:Silver  Nate \n Genre:tech \n SubGenre:data_science \n Height:233 \n Publisher:Penguin \n Price: Rs.907 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SOCIAL CHOICE AND WELFARE  VOL 39 NO. 1</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Social Choice AND Welfare  Vol 39 No. 1 \n Author:Various \n Genre:tech \n SubGenre:economics \n Height:235 \n Publisher:Springer \n Price: Rs.1225 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>SOFT COMPUTING AND INTELLIGENT SYSTEMS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Soft Computing AND Intelligent Systems \n Author:Gupta  Madan \n Genre:tech \n SubGenre:data_science \n Height:242 \n Publisher:Elsevier \n Price: Rs.1081 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>STATISTICAL DECISION THEORY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Statistical Decision Theory \n Author:Pratt  John \n Genre:tech \n SubGenre:data_science \n Height:236 \n Publisher:MIT Press \n Price: Rs.1024 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>STATISTICAL LEARNING THEORY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Statistical Learning Theory \n Author:Vapnik  Vladimir \n Genre:tech \n SubGenre:data_science \n Height:228 \n Publisher: \n Price: Rs.1191 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Structure AND Interpretation of Computer Programs \n Author:Sussman  Gerald \n Genre:tech \n SubGenre:computer_science \n Height:240 \n Publisher:MIT Press \n Price: Rs.841 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>TEXTBOOK OF ECONOMIC THEORY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Textbook of Economic Theory \n Author:Stonier  Alfred \n Genre:tech \n SubGenre:economics \n Height:242 \n Publisher:Pearson \n Price: Rs.1223 \n Would you like to buy that book?</template>
+</category>
+<category>
+<pattern>THINK COMPLEXITY</pattern>
+<that>* BOOK S NAME *</that>
+<template>Title:Think Complexity \n Author:Downey  Allen \n Genre:tech \n SubGenre:data_science \n Height:230 \n Publisher: \n Price: Rs.911 \n Would you like to buy that book?</template>
+</category>
+
+<category>
+      <pattern>*</pattern>
+      <that>* BOOK S NAME *</that>
+   <template>Ah!Sorry to say but the book "<star/>" is currently not on our bookshelf \n
+         Would you like to search for another book?Type book's name below!
+   </template>
+</category>
+
+<category>
+   <pattern>YES</pattern>
+   <that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+   <template>Please fill in your details:</template>
+</category>
+<category>
+   <pattern>YUP</pattern>
+   <that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+   <template>Please fill in your details:</template>
+</category>
+<category>
+   <pattern>YA</pattern>
+   <that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+   <template>Please fill in your details:</template>
+</category>
+
+<category>
+   <pattern>YES *</pattern>
+   <that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+   <template>Please fill in your details:</template>
+</category>
+<category>
+   <pattern>YUP *</pattern>
+   <that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+   <template>Please fill in your details:</template>
+</category>
+<category>
+   <pattern>YA *</pattern>
+   <that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+   <template>Please fill in your details:</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+<category>
+<pattern>NOPE</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+<category>
+<pattern>NAH</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+<category>
+<pattern>NAHI</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+<category>
+<pattern>NOPE *</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+<category>
+<pattern>NAH *</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+<category>
+<pattern>NAHI *</pattern>
+<that>* WOULD YOU LIKE TO BUY THAT BOOK </that>
+<template>You may continue to explore until you chance upon the book's name you love!</template>
+</category>
+
+
 
  </aiml>

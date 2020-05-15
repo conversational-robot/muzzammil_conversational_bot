@@ -1,0 +1,36 @@
+<aiml version = "1.0.1" encoding = "UTF 8">
+<category>
+<pattern>FICTION</pattern>
+<template>Below is the list of fiction books available on bookshelf: \n
+20000 Leagues Under the Sea \n Amulet of Samarkand  The \n Angels AND Demons \n Angels AND Demons \n Animal Farm \n Asami Asami \n Ashenden of The British Agent \n Attorney  The \n Batatyachi Chal \n Batman Earth One \n Batman Handbook \n Batman: The Long Halloween \n Brethren  The \n Burning Bright \n Case of the Lame Canary  The \n Catch 22 \n Christmas Carol  A \n City of Joy  The \n Complete Sherlock Holmes  The   Vol I \n Complete Sherlock Holmes  The   Vol II \n Crime and Punishment \n Crisis on Infinite Earths \n Death of Superman  The \n Deceiver  The \n Devils Advocate  The \n Doctor in the Nude \n Doctor on the Brain \n Eyeless in Gaza \n False Impressions \n Farewell to Arms  A \n Final Crisis \n Flashpoint \n Girl who kicked the Hornets Nest \n Girl who played with Fire \n Girl with the Dragon Tattoo \n Grapes of Wrath  The \n Great Indian Novel  The \n Hafasavnuk \n Half A Life \n History of the DC Universe \n Hunchback of Notre Dame  The \n Idiot  The \n In a Free State \n Journal of a Novel \n Judge  The \n Jurassic Park \n Justice League: The Villains Journey \n Justice League: Throne of Atlantis \n Killing Joke  The \n Maughams Collected Short Stories  Vol 3 \n Moon and Sixpence  The \n Moon is Down  The \n More Tears to Cry \n New Machiavelli  The \n Outsider  The \n Phantom of Manhattan  The \n Pillars of the Earth  The \n Prince  The \n Prisoner of Birth  A \n Raisin in the Sun  A \n Ropemaker  The \n Rosy is My Relative \n Sea of Poppies \n Selected Short Stories \n Slaughterhouse Five \n Superman Earth One   1 \n Superman Earth One   2 \n Tales of Beedle the Bard \n Tales of Mystery and Imagination \n To Sir With Love \n Trembling of a Leaf  The \n Trial  The \n Urlasurla \n Veteran  The \n We the Living \n Winter of Our Discontent  The \n Worlds Greatest Short Stories  The \n 
+Feel free to type any book's name listed above to know more about that book!</template>
+</category>
+<category>
+<pattern>NON FICTION</pattern>
+<template>Below is the list of non-fiction books available on bookshelf: \n
+Age of Discontuinity  The \n Age of the Warrior  The \n Age of Wrath  The \n Aghal Paghal \n Ahe Manohar Tari \n All the Presidents Men \n Apulki \n Argumentative Indian  The \n Beautiful and the Damned  The \n Beyond the Three Seas \n Bookless in Baghdad \n Char Shabda \n City of Djinns \n Clash of Civilizations and Remaking of the World Order \n Complete Mastermind  The \n Courtroom Genius  The \n Discovery of India  The \n Dongri to Dubai \n Down and Out in Paris AND London \n Dylan on Dylan \n Empire of the Mughal   Brothers at War \n Empire of the Mughal   Raiders from the North \n Empire of the Mughal   Ruler of the World \n Empire of the Mughal   The Serpents Tooth \n Empire of the Mughal   The Tainted Throne \n Free Will \n Freedom at Midnight \n From Beirut to Jerusalem \n Great War for Civilization  The \n Gun Gayin Awadi \n History of England  Foundation \n How to Think Like Sherlock Holmes \n India from Midnight to Milennium \n Indias Legal System \n Integration of the Indian States \n Jim Corbett Omnibus \n Justice  Judiciary and Democracy \n Karl Marx Biography \n Last Lecture  The \n Last Mughal  The \n Life in Letters  A \n Manasa \n Maqta e Ghalib \n Mein Kampf \n Mossad \n O Jerusalem! \n Once There Was a War \n One \n Orientalism \n Radiowaril Bhashane AND Shrutika \n Russian Journal  A \n Scoop! \n Short History of the World  A \n Talking Straight \n Uncommon Wisdom \n Veil: Secret Wars of the CIA \n Vyakti ani Valli \n Worlds Greatest Trials  The \n 
+Feel free to type any book's name listed above to know more about that book!</template>
+</category>
+<category>
+<pattern>NONFICTION</pattern>
+<template><srai>NONFICTION</srai></template>
+</category>
+<category>
+<pattern>PHILOSOPHY</pattern>
+<template>Below is the list of philosphy books available on bookshelf: \n
+Arthashastra  The \n Ayn Rand Answers \n Beyond Degrees \n History of Western Philosophy \n Idea of Justice  The \n Identity AND Violence \n Murphys Law \n On Education \n Philosophy: Who Needs It \n Physics AND Philosophy \n Political Philosophers \n Return of the Primitive \n Story of Philosophy  The \n Unpopular Essays \n We the Nation \n We the People \n Zen AND The Art of Motorcycle Maintenance \n
+Feel free to type any book's name listed above to know more about that book! </template>
+</category>
+<category>
+<pattern>SCIENCE</pattern>
+<template>Below is the list of science books available on bookshelf: \n
+Artist and the Mathematician  The \n Birth of a Theorem \n Brocas Brain \n Code Book  The \n Drunkards Walk  The \n Electric Universe \n Freakonomics \n Hidden Connections  The \n Information  The \n Journal of Economics  vol 106 No 3 \n Men of Mathematics \n New Markets AND Other Essays \n Numbers Behind Numb3rs  The \n Oxford book of Modern Science Writing \n Rationality AND Freedom \n Simpsons AND Their Mathematical Secrets \n Structure and Randomness \n Superfreakonomics \n Surely Youre Joking Mr Feynman \n Tao of Physics  The \n Theory of Everything  The \n Wealth of Nations  The \n Worlds Great Thinkers  The \n
+Feel free to type any book's name listed above to know more about that book! </template>
+</category>
+<category>
+<pattern>TECH</pattern>
+<template>Below is the list of technology books available on bookshelf: \n
+Analysis  Vol I \n Cathedral and the Bazaar  The \n Computer Vision  A Modern Approach \n Data Analysis with Open Source Tools \n Data Mining Handbook \n Data Scientists at Work \n Data Smart \n Data Structures Using C AND C++ \n Design with OpAmps \n Econometric Analysis \n Elements of Information Theory \n Fundamentals of Wavelets \n God Created the Integers \n Image Processing AND Mathematical Morphology \n Image Processing with MATLAB \n Introduction to Algorithms \n Learning OpenCV \n Let Us C \n Machine Learning for Hackers \n Making Software \n Nature of Statistical Learning Theory  The \n Neural Networks \n Pattern Classification \n Pointers in C \n Power Electronics   Mohan \n Power Electronics   Rashid \n Principles of Communication Systems \n Python for Data Analysis \n Signal and the Noise  The \n Social Choice AND Welfare  Vol 39 No. 1 \n Soft Computing AND Intelligent Systems \n Statistical Decision Theory \n Statistical Learning Theory \n Structure AND Interpretation of Computer Programs \n Textbook of Economic Theory \n Think Complexity \n Feel free to type any book's name listed above to know more about that book! </template>
+</category>
+ </aiml>
+

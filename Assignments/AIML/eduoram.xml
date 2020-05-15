@@ -21,7 +21,7 @@
 	<pattern>EXPLORE</pattern>
 	<template>
 		What category would you like to explore? \n 
-		ADVENTURE|THRILLER|COMEDY|FANTASY|SCI-FI|ROMANCE|HORROR|CRIME|BIOGRAPHY
+		FICTION|NON-FICTION|PHILOSOPHY|SCIENCE|TECH
 	</template>
 </category>
 <category>
@@ -41,7 +41,7 @@
 <category>
 	<pattern>SEARCH FOR A BOOK</pattern>
 	<template>
-		Please type book's name
+		Please type book's name you want
 	</template>
 </category>
 <category>
@@ -59,13 +59,6 @@
 <category>
 	<pattern>SEARCH *</pattern>
 	<template><srai>SEARCH FOR A BOOK</srai></template>
-</category>
-<category>
-		<pattern>_</pattern>
-	<that>TYPE ITS NAME</that>
-	<template>Ah!Sorry to say but the book "<star/>" is currently not on our bookshelf \n
-			Would you like to search for another book?Type its name
-	</template>
 </category>
 <!--end_of_search-->
 <!--track_order-->
@@ -103,13 +96,152 @@
 <!--about-->
 <category>
 <pattern>ABOUT NERDYBOOKZZ</pattern>
-<template>In short,Mohd Muzzammil,who created me and NeRdYbOoKzZ,was kind of a great bookworm himself. \n One day,as he was swimming across his pile of books,he got the idea of creating a hub from where bookworms can explore and buy great books....and behold,NeRdYbOoKzZ was created! </template>
+<template>In short,YOU_KNOW_WHO,who created me and NeRdYbOoKzZ,was kind of a great bookworm himself. \n One day,as he was swimming across his pile of books,he got the idea of creating a hub from where bookworms can explore and buy great books....and behold,NeRdYbOoKzZ was created! </template>
 </category>
 <!--end_ofabout-->
+<!--buyer-->
+<category>
+	<pattern>CONFIRMATION</pattern>
+	<template>Do you confirm your order? YES|NO</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Thank you <get name="name"/> for shopping with us!</template>
+</category>
+<category>
+	<pattern>YUP</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Thank you <get name="name"/> for shopping with us!</template>
+</category>
+<category>
+	<pattern>YA</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Thank you <get name="name"/> for shopping with us!</template>
+</category>
+<category>
+	<pattern>YES *</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Thank you <get name="name"/> for shopping with us!</template>
+</category>
+<category>
+	<pattern>YUP *</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Thank you <get name="name"/> for shopping with us!</template>
+</category>
+<category>
+	<pattern>YA *</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Thank you <get name="name"/> for shopping with us!</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Your order has been cancelled successfully,<get name="name"/>!</template>
+</category>
+<category>
+	<pattern>NOPE</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Your order has been cancelled successfully,<get name="name"/>!</template>
+</category>
+<category>
+	<pattern>NAH</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Your order has been cancelled successfully,<get name="name"/>!</template>
+</category>
+
+<category>
+	<pattern>NO *</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Your order has been cancelled successfully,<get name="name"/>!</template>
+</category>
+<category>
+	<pattern>NOPE *</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Your order has been cancelled successfully,<get name="name"/>!</template>
+</category>
+<category>
+	<pattern>NAH *</pattern>
+	<that>DO YOU CONFIRM YOUR ORDER * </that>
+	<template>Your order has been cancelled successfully,<get name="name"/>!</template>
+</category>
+<!--buyer-->
 <!--bye-->
 <category>
 <pattern>BYE</pattern>
-<template>Bye bookworm,thankyou for visiting!!</template>
+<template>
+<condition name="name">
+<li value="">Bye bookworm,thankyou for visiting!!</li>
+<li>Bye <get name="name"/>,thank you for visiting!!</li>
+</condition>
+</template>
 </category>
 <!--end_of_bye-->
+<!--exit,stop,quit,bye,adieu,goodbye-->
+<!--add would you like to exit category-->
+<category>
+	<pattern>THANKS</pattern>
+	<template>
+		<random>
+			<li>Your welcome <get name=""/></li>
+			<li>I am always there for help!!</li>
+			<li>Oh!mention not</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>THANK *</pattern>
+	<template>
+		<srai>THANKS</srai>
+	</template>
+</category>
+<category>
+	<pattern>* THANK *</pattern>
+	<template>
+		<srai>THANKS</srai>
+	</template>
+</category>
+<category>
+	<pattern> THANKS *</pattern>
+	<template>
+		<srai>THANKS</srai>
+	</template>
+</category>
+<category>
+	<pattern>* THANKS *</pattern>
+	<template>
+		<srai>THANKS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>OKAY</pattern>
+	<template>
+		<random>
+			<li>Hmmmmm..</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>ALRIGHT</pattern>
+	<template><srai>OKAY</srai></template>
+</category>
+<category>
+	<pattern>OK</pattern>
+	<template><srai>OKAY</srai></template>
+</category>
+
+<category>
+	<pattern>ALRIGHT *</pattern>
+	<template><srai>OKAY</srai></template>
+</category>
+<category>
+	<pattern>OK *</pattern>
+	<template><srai>OKAY</srai></template>
+</category>
+<category>
+	<pattern>OKAY *</pattern>
+	<template><srai>OKAY</srai></template>
+</category>
 </aiml>
